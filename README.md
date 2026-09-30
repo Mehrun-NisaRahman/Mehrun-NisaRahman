@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @Mehrun-NisaRahman
-- 👀 I’m interested in Programming
-- 🌱 I’m currently learning Computer Science and Engineering
+- 👋 Hi, I’m @Mehrun-NisaRahman.
+- 👀 I’m interested in Programming.
+- 🌱 I’m currently studying Computer Science.
 - 📫 How to reach me (https://www.facebook.com/mehrunnisarahman.ety)
 
 <!---
