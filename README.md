@@ -76,19 +76,19 @@ flowchart LR
 
 ## 📂 Featured projects
 
-### 🏨 [Hotel Booking Status Classification (CSE422, AI)](https://github.com/Mehrun-NisaRahman/cse422-project)
+### 🏨 [Hotel Booking Status Classification](https://github.com/Mehrun-NisaRahman/cse422-project)
 A machine-learning project that predicts whether a hotel booking ends in check-out, cancellation, or no-show. Compares KNN, Logistic Regression, Naive Bayes, and a neural network on 119K bookings, with K-Means clustering on top. Reached 83% accuracy and 0.91 AUC.
 `Python` `scikit-learn` `pandas`
 
-### 🏍️ [Traffic Rider (CSE423, Computer Graphics)](https://github.com/Mehrun-NisaRahman/cse423-project)
+### 🏍️ [Traffic Rider](https://github.com/Mehrun-NisaRahman/cse423-project)
 A 3D endless-runner game built with Python and PyOpenGL. Dodge rocks across three lanes, collect coins and fuel, and survive as the difficulty ramps up. Includes a day/night cycle, boost mode, and first- and third-person cameras.
 `Python` `PyOpenGL` `GLUT`
 
-### 🛒 [Online Inventory & Order Management (CSE370, Databases)](https://github.com/Mehrun-NisaRahman/CSE370-Project-Section-07)
+### 🛒 [Online Inventory & Order Management](https://github.com/Mehrun-NisaRahman/CSE370-Project-Section-07)
 A buyer/seller web platform with product listings, a shopping cart, checkout and payments, order memos, and a quiz that earns buyers a discount. Backed by a relational MySQL schema.
 `PHP` `MySQL`
 
-### 🔧 [FixIt (CSE470, Software Engineering)](https://github.com/Sahela-Khan/FixIt-A-Local-Home-Services-Booking-Platform)
+### 🔧 [FixIt](https://github.com/Sahela-Khan/FixIt-A-Local-Home-Services-Booking-Platform)
 A platform where homeowners can browse and book local service providers such as electricians, plumbers, and cleaners, and track job status in real time. Built as a team project.
 `JavaScript`
 
