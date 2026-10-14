@@ -1,25 +1,61 @@
-# Hi, I'm Mehrun Nisa Rahman 👋
+<div align="center">
 
-Computer Science student who enjoys turning course concepts into working projects, from web apps with databases to 3D games in Python. I'm building my skills in software engineering, databases, and computer graphics, and learning something new with every project.
+<img src="banner.svg" alt="Mehrun-Nisa Rahman: human-in-the-loop, multi-agent, vision-language" width="100%">
 
-## 🔭 What I'm up to
+</div>
 
-- 🎓 Studying Computer Science
+## 👋 About me
+
+Computer Science student who enjoys turning course concepts into working projects, from database-backed web apps and 3D games to machine-learning pipelines. My thesis work looks at how **AI agents and human researchers can work together** on multimodal data.
+
+- 🎓 Studying Computer Science at BRAC University
 - 🔬 Working on my B.Sc. thesis on human-in-the-loop multi-agent vision-language models
-- 🌱 Getting better at software engineering, teamwork, and clean code
-- 🔍 Looking for opportunities to collaborate on projects and grow as a developer
+- 🌱 Getting better at software engineering, machine learning, and clean code
+- 🤝 Open to collaborating on projects and research
+
+## 🔬 Current research
+
+### Human-in-the-Loop Multi-Agent Vision-Language Framework for Qualitative Coding
+
+Qualitative coding is slow, and most AI tools only read text even though real data (product reviews, Airbnb listings) comes with images. My thesis team and I are testing whether a **human-in-the-loop, multi-agent vision-language framework** can produce qualitative codes that are **more accurate and more explainable** than a single-agent VLM, under a matched token budget.
+
+Each agent has one job, and human researchers can accept, edit, or reject the output at key stages:
+
+```mermaid
+flowchart LR
+    D([Text + images]) --> P[Preprocess]
+    P --> C[Code]
+    C --> L[Link text and image]
+    L --> T[Themes]
+    T --> V[Validate]
+    V --> E[Explain]
+    E --> R([Report])
+    H{{Human review}}
+    C -.-> H
+    T -.-> H
+    V -.-> H
+    H -.->|accept / edit / reject| C
+    classDef agent fill:#0b1020,stroke:#22d3ee,stroke-width:2px,color:#e0f2fe
+    classDef human fill:#f59e0b,stroke:#b45309,color:#1c1917
+    classDef io fill:#1a1f4a,stroke:#a78bfa,color:#ede9fe
+    class P,C,L,T,V,E agent
+    class H human
+    class D,R io
+```
+
+`Multimodal AI` `Vision-Language Models` `Multi-Agent Systems` `Explainability` `Human-AI Collaboration`
 
 ## 🛠️ Tech I've worked with
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Python](https://img.shields.io/badge/Python-111633?style=for-the-badge&logo=python&logoColor=22d3ee)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-111633?style=for-the-badge&logo=scikitlearn&logoColor=22d3ee)
+![Pandas](https://img.shields.io/badge/Pandas-111633?style=for-the-badge&logo=pandas&logoColor=22d3ee)
+![OpenGL](https://img.shields.io/badge/OpenGL-111633?style=for-the-badge&logo=opengl&logoColor=22d3ee)
+![JavaScript](https://img.shields.io/badge/JavaScript-111633?style=for-the-badge&logo=javascript&logoColor=a78bfa)
+![PHP](https://img.shields.io/badge/PHP-111633?style=for-the-badge&logo=php&logoColor=a78bfa)
+![MySQL](https://img.shields.io/badge/MySQL-111633?style=for-the-badge&logo=mysql&logoColor=a78bfa)
+![Git](https://img.shields.io/badge/Git-111633?style=for-the-badge&logo=git&logoColor=fbbf24)
+![GitHub](https://img.shields.io/badge/GitHub-111633?style=for-the-badge&logo=github&logoColor=fbbf24)
 
 ## 📂 Featured projects
 
@@ -39,21 +75,13 @@ A buyer/seller web platform with product listings, a shopping cart, checkout and
 A platform where homeowners can browse and book local service providers such as electricians, plumbers, and cleaners, and track job status in real time. Built as a team project.
 `JavaScript`
 
-## 🔬 Current research
-
-### 🎓 B.Sc. Thesis: Human-in-the-Loop Multi-Agent Vision-Language Framework for Qualitative Coding
-Qualitative coding is slow, and most AI tools only read text even though real data (product reviews, Airbnb listings) comes with images. My thesis team and I are testing whether a **human-in-the-loop, multi-agent vision-language framework** can produce qualitative codes that are more accurate and more explainable than a single-agent VLM, under a matched token budget. Specialised agents handle preprocessing, coding, cross-modal reasoning, theme building, validation, and explanation, while human researchers review and approve the outputs.
-`Multimodal AI` `Vision-Language Models` `Multi-Agent Systems` `Explainability` `Human-AI Collaboration`
-
 ## 📫 Get in touch
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mehrunnisarahmanety@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mehrun_nisa_)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/mehrunnisarahman.ety)
-
-Open to collaborating on projects and learning opportunities, so feel free to reach out!
+[![Email](https://img.shields.io/badge/Email-111633?style=for-the-badge&logo=gmail&logoColor=22d3ee)](mailto:mehrunnisarahmanety@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111633?style=for-the-badge&logo=linkedin&logoColor=22d3ee)](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/)
+[![X](https://img.shields.io/badge/X-111633?style=for-the-badge&logo=x&logoColor=22d3ee)](https://x.com/mehrun_nisa_)
+[![Facebook](https://img.shields.io/badge/Facebook-111633?style=for-the-badge&logo=facebook&logoColor=22d3ee)](https://www.facebook.com/mehrunnisarahman.ety)
 
 ---
 
-⭐ Thanks for stopping by!
+<div align="center">⭐ Thanks for stopping by!</div>
