@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 30" width="1200" height="30" role="presentation" aria-hidden="true">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F9B8D6" stop-opacity="0"/><stop offset="0.2" stop-color="#F9B8D6"/><stop offset="0.5" stop-color="#C7B8F5"/><stop offset="0.8" stop-color="#B8E0FF"/><stop offset="1" stop-color="#B8E0FF" stop-opacity="0"/></linearGradient></defs>
+  <path d="M0,15 Q150,3 300,15 T600,15 T900,15 T1200,15" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(600,15)"><path d="M0,-10 C2,-3 3,-2 10,0 C3,2 2,3 0,10 C-2,3 -3,2 -10,0 C-3,-2 -2,-3 0,-10 Z" fill="#C7B8F5" transform="scale(1.1)"><animateTransform attributeName="transform" type="rotate" values="0;90;0" dur="6s" repeatCount="indefinite" additive="sum"/></path></g>
+  <g transform="translate(560,15) scale(0.6)"><path d="M0,-10 C2,-3 3,-2 10,0 C3,2 2,3 0,10 C-2,3 -3,2 -10,0 C-3,-2 -2,-3 0,-10 Z" fill="#F9B8D6"/></g>
+  <g transform="translate(640,15) scale(0.6)"><path d="M0,-10 C2,-3 3,-2 10,0 C3,2 2,3 0,10 C-2,3 -3,2 -10,0 C-3,-2 -2,-3 0,-10 Z" fill="#B8E0FF"/></g>
+  <circle r="4" fill="#FFD3B0"><animateMotion dur="7s" repeatCount="indefinite" path="M60,15 Q210,3 360,15 T660,15 T960,15 T1140,15"/></circle>
+</svg>
