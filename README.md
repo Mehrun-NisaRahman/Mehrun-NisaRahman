@@ -1,32 +1,76 @@
 <div align="center">
 
-<img src="banner.svg" alt="Mehrun-Nisa Rahman: databases, AI, graphics and software engineering leading to a human-in-the-loop AI thesis" width="100%">
+<img src="banner.svg" alt="Mehrun-Nisa Rahman: CS student, AI/ML and software engineering, open to work" width="100%">
+
+![Status](https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-22c55e?style=for-the-badge&labelColor=0b1020)
+[![Email](https://img.shields.io/badge/Email-111633?style=for-the-badge&logo=gmail&logoColor=22d3ee)](mailto:mehrunnisarahmanety@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111633?style=for-the-badge&logo=linkedin&logoColor=22d3ee)](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/)
+[![X](https://img.shields.io/badge/X-111633?style=for-the-badge&logo=x&logoColor=22d3ee)](https://x.com/mehrun_nisa_)
 
 </div>
 
-## 👋 About me
+## 👋 Hi, I'm Mehrun-Nisa
 
-I'm a Computer Science student at BRAC University who learns by building. So far that means a database-backed marketplace, a machine-learning pipeline, a 3D game, and a team platform for booking home services. My thesis now brings those threads together: **AI agents that work with human researchers** on text and image data.
+Computer Science student at **BRAC University** focused on **machine learning and software engineering**. I build things end to end: a database-backed marketplace, an ML pipeline on 119K records, a 3D game, and a team platform for booking home services. My thesis explores **AI agents that work alongside human researchers** on text and image data.
 
-- 🎓 B.Sc. in Computer Science and Engineering, BRAC University
-- 🔬 Writing my thesis on human-in-the-loop multi-agent vision-language models
-- 🤝 I work well in teams. Most of my projects, and my thesis, are group work
-- 🌱 Always improving at software engineering, machine learning, and clean code
+## 🎯 Open to
+
+| Looking for | Where I can help |
+| --- | --- |
+| **AI / ML roles** | Data preparation, model training and fair evaluation, working with imbalanced data |
+| **Software engineering roles** | Full-stack features, relational database design, working in a team |
+| **Research assistant roles** | Multimodal AI, vision-language models, human-AI collaboration |
+
+I'm available for internships and entry-level positions. The fastest way to reach me is by [email](mailto:mehrunnisarahmanety@gmail.com) or [LinkedIn](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/).
+
+## ⚡ Highlights
+
+- 🧠 **Machine learning:** compared 4 models on 119K hotel bookings, reaching 83% accuracy and 0.91 AUC. I removed target-leakage columns and judged models on macro F1 and balanced accuracy, because only 1% of the data was the rare class.
+- 🗄️ **Databases:** designed an 11-table relational MySQL schema for a buyer/seller marketplace with a cart, checkout, payments, and a quiz-based discount engine.
+- 🎮 **Graphics:** built a 3D endless-runner game in Python and PyOpenGL with collisions, fuel and coin mechanics, a day/night cycle, and two camera modes.
+- 👥 **Teamwork:** worked in teams on a home-services booking platform and on my thesis.
+- 🔬 **Research:** designing a human-in-the-loop multi-agent vision-language framework, evaluated against a single-agent baseline with matched token budgets.
 
 ## 🧭 From coursework to thesis
 
 <div align="center">
 
-<img src="journey.svg" alt="Databases, AI, graphics and software engineering projects feeding into a human-in-the-loop multi-agent vision-language thesis" width="100%">
+<img src="journey.svg" alt="Databases, machine learning, graphics and software engineering projects feeding into a human-in-the-loop multi-agent vision-language thesis" width="100%">
 
 </div>
 
-**How I like to work**
-- 🔍 **Check before trusting a number.** In my ML project I removed target-leakage columns and judged models on macro F1 and balanced accuracy, because accuracy alone hid how badly the rare class was handled.
-- ⚖️ **Compare fairly.** My thesis tests the multi-agent framework against a single-agent baseline with the *same token budget*, so any gain comes from the design and not from extra compute.
-- 🧑‍🤝‍🧑 **Keep people in control.** AI output should be reviewable, explainable, and easy to correct.
+## 🛠️ Skills
 
-## 🔬 Thesis: Human-in-the-Loop Multi-Agent Vision-Language Framework for Qualitative Coding
+| Area | Tools and techniques |
+| --- | --- |
+| **Languages** | Python · JavaScript · PHP · SQL |
+| **ML and data** | scikit-learn · pandas · NumPy · matplotlib · seaborn |
+| **Modelling** | Classification · K-Means clustering · neural networks (MLP) · ROC-AUC and macro F1 on imbalanced data |
+| **Web and databases** | MySQL schema design · PHP back end · JavaScript |
+| **Graphics** | OpenGL through PyOpenGL |
+| **Tools** | Git · GitHub · Jupyter / Colab |
+| **Exploring now** | Vision-language models · multi-agent systems · explainable AI |
+
+![Python](https://img.shields.io/badge/Python-111633?style=for-the-badge&logo=python&logoColor=22d3ee)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-111633?style=for-the-badge&logo=scikitlearn&logoColor=22d3ee)
+![Pandas](https://img.shields.io/badge/Pandas-111633?style=for-the-badge&logo=pandas&logoColor=22d3ee)
+![OpenGL](https://img.shields.io/badge/OpenGL-111633?style=for-the-badge&logo=opengl&logoColor=f472b6)
+![JavaScript](https://img.shields.io/badge/JavaScript-111633?style=for-the-badge&logo=javascript&logoColor=34d399)
+![PHP](https://img.shields.io/badge/PHP-111633?style=for-the-badge&logo=php&logoColor=a78bfa)
+![MySQL](https://img.shields.io/badge/MySQL-111633?style=for-the-badge&logo=mysql&logoColor=a78bfa)
+![Git](https://img.shields.io/badge/Git-111633?style=for-the-badge&logo=git&logoColor=fbbf24)
+![GitHub](https://img.shields.io/badge/GitHub-111633?style=for-the-badge&logo=github&logoColor=fbbf24)
+
+## 📂 Projects
+
+| Project | What it does | Results and highlights | Stack |
+| --- | --- | --- | --- |
+| [**Hotel Booking Status Classification**](https://github.com/Mehrun-NisaRahman/cse422-project) | Predicts whether a hotel booking ends in check-out, cancellation, or no-show | 119K bookings, 4 models plus K-Means, 83% accuracy, 0.91 AUC, leakage and class imbalance handled | `Python` `scikit-learn` `pandas` |
+| [**Online Inventory & Order Management**](https://github.com/Mehrun-NisaRahman/CSE370-Project-Section-07) | Buyer/seller marketplace with products, cart, checkout, payments, and order memos | 11-table relational schema, role-based dashboards, quiz-based discount engine | `PHP` `MySQL` |
+| [**Traffic Rider**](https://github.com/Mehrun-NisaRahman/cse423-project) | 3D endless-runner game with lanes, obstacles, coins, and fuel | Day/night cycle, boost mode, first- and third-person cameras | `Python` `PyOpenGL` |
+| [**FixIt**](https://github.com/Sahela-Khan/FixIt-A-Local-Home-Services-Booking-Platform) | Platform for booking local electricians, plumbers, and cleaners and tracking job status | Built as a team project with real-time job tracking | `JavaScript` |
+
+## 🔬 Thesis: Human-in-the-Loop Multi-Agent Vision-Language Framework
 
 Qualitative coding is slow, and most AI tools only read text even though real data (product reviews, Airbnb listings) comes with images. My thesis team and I are investigating whether a **human-in-the-loop, multi-agent vision-language framework** can produce qualitative codes that are **more accurate and more explainable** than a single-agent VLM, under a matched token budget.
 
@@ -62,44 +106,24 @@ flowchart LR
 
 `Multimodal AI` `Vision-Language Models` `Multi-Agent Systems` `Explainability` `Human-AI Collaboration`
 
-## 🛠️ Tech I've worked with
+## 🤝 How I work
 
-![Python](https://img.shields.io/badge/Python-111633?style=for-the-badge&logo=python&logoColor=22d3ee)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-111633?style=for-the-badge&logo=scikitlearn&logoColor=22d3ee)
-![Pandas](https://img.shields.io/badge/Pandas-111633?style=for-the-badge&logo=pandas&logoColor=22d3ee)
-![OpenGL](https://img.shields.io/badge/OpenGL-111633?style=for-the-badge&logo=opengl&logoColor=f472b6)
-![JavaScript](https://img.shields.io/badge/JavaScript-111633?style=for-the-badge&logo=javascript&logoColor=34d399)
-![PHP](https://img.shields.io/badge/PHP-111633?style=for-the-badge&logo=php&logoColor=a78bfa)
-![MySQL](https://img.shields.io/badge/MySQL-111633?style=for-the-badge&logo=mysql&logoColor=a78bfa)
-![Git](https://img.shields.io/badge/Git-111633?style=for-the-badge&logo=git&logoColor=fbbf24)
-![GitHub](https://img.shields.io/badge/GitHub-111633?style=for-the-badge&logo=github&logoColor=fbbf24)
+- 🔍 **I check before I trust a number.** Leakage, class imbalance, and the right metrics come before any accuracy claim.
+- ⚖️ **I compare fairly.** Matched budgets and proper baselines, so gains come from the design.
+- 🧑‍🤝‍🧑 **I keep people in control.** AI output should be reviewable, explainable, and easy to correct.
 
-## 📂 Featured projects
+## 📫 Let's talk
 
-### 🏨 [Hotel Booking Status Classification](https://github.com/Mehrun-NisaRahman/cse422-project)
-A machine-learning project that predicts whether a hotel booking ends in check-out, cancellation, or no-show. Compares KNN, Logistic Regression, Naive Bayes, and a neural network on 119K bookings, with K-Means clustering on top. Reached 83% accuracy and 0.91 AUC.
-`Python` `scikit-learn` `pandas`
-
-### 🏍️ [Traffic Rider](https://github.com/Mehrun-NisaRahman/cse423-project)
-A 3D endless-runner game built with Python and PyOpenGL. Dodge rocks across three lanes, collect coins and fuel, and survive as the difficulty ramps up. Includes a day/night cycle, boost mode, and first- and third-person cameras.
-`Python` `PyOpenGL` `GLUT`
-
-### 🛒 [Online Inventory & Order Management](https://github.com/Mehrun-NisaRahman/CSE370-Project-Section-07)
-A buyer/seller web platform with product listings, a shopping cart, checkout and payments, order memos, and a quiz that earns buyers a discount. Backed by a relational MySQL schema.
-`PHP` `MySQL`
-
-### 🔧 [FixIt](https://github.com/Sahela-Khan/FixIt-A-Local-Home-Services-Booking-Platform)
-A platform where homeowners can browse and book local service providers such as electricians, plumbers, and cleaners, and track job status in real time. Built as a team project.
-`JavaScript`
-
-## 📫 Get in touch
-
-Open to collaborating on projects and research, so feel free to reach out!
+I'm open to internships and entry-level roles in AI/ML and software engineering. If you're hiring or want to collaborate, I'd love to hear from you.
 
 [![Email](https://img.shields.io/badge/Email-111633?style=for-the-badge&logo=gmail&logoColor=22d3ee)](mailto:mehrunnisarahmanety@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-111633?style=for-the-badge&logo=linkedin&logoColor=22d3ee)](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/)
 [![X](https://img.shields.io/badge/X-111633?style=for-the-badge&logo=x&logoColor=22d3ee)](https://x.com/mehrun_nisa_)
 [![Facebook](https://img.shields.io/badge/Facebook-111633?style=for-the-badge&logo=facebook&logoColor=22d3ee)](https://www.facebook.com/mehrunnisarahman.ety)
+
+<!-- To add your resume, delete this line's comment markers and replace YOUR_RESUME_LINK:
+[![Resume](https://img.shields.io/badge/Resume-111633?style=for-the-badge&logo=readthedocs&logoColor=fbbf24)](YOUR_RESUME_LINK)
+-->
 
 ---
 
