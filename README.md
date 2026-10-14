@@ -5,6 +5,7 @@ Computer Science student who enjoys turning course concepts into working project
 ## 🔭 What I'm up to
 
 - 🎓 Studying Computer Science
+- 🔬 Working on my B.Sc. thesis on human-in-the-loop multi-agent vision-language models
 - 🌱 Getting better at software engineering, teamwork, and clean code
 - 🔍 Looking for opportunities to collaborate on projects and grow as a developer
 
@@ -37,6 +38,12 @@ A buyer/seller web platform with product listings, a shopping cart, checkout and
 ### 🔧 [FixIt (CSE470, Software Engineering)](https://github.com/Sahela-Khan/FixIt-A-Local-Home-Services-Booking-Platform)
 A platform where homeowners can browse and book local service providers such as electricians, plumbers, and cleaners, and track job status in real time. Built as a team project.
 `JavaScript`
+
+## 🔬 Current research
+
+### 🎓 B.Sc. Thesis: Human-in-the-Loop Multi-Agent Vision-Language Framework for Qualitative Coding
+Qualitative coding is slow, and most AI tools only read text even though real data (product reviews, Airbnb listings) comes with images. My thesis team and I are testing whether a **human-in-the-loop, multi-agent vision-language framework** can produce qualitative codes that are more accurate and more explainable than a single-agent VLM, under a matched token budget. Specialised agents handle preprocessing, coding, cross-modal reasoning, theme building, validation, and explanation, while human researchers review and approve the outputs.
+`Multimodal AI` `Vision-Language Models` `Multi-Agent Systems` `Explainability` `Human-AI Collaboration`
 
 ## 📫 Get in touch
 
