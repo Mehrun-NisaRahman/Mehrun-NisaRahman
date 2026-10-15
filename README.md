@@ -5,10 +5,10 @@
   <img src="banner-light.svg" alt="Mehrun-Nisa Rahman: B.Sc. in Computer Science at BRAC University. AI, machine learning and software engineering. Open to work." width="100%">
 </picture>
 
-![Status](https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-0E7470?style=for-the-badge)
-[![Email](https://img.shields.io/badge/Email-1F2937?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mehrunnisarahmanety@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1F2937?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/)
-[![X](https://img.shields.io/badge/X-1F2937?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mehrun_nisa_)
+<picture><source media="(prefers-color-scheme: dark)" srcset="btn-status-dark.svg"><img src="btn-status-light.svg" alt="Status: open to work" height="44"></picture>
+<a href="mailto:mehrunnisarahmanety@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-email-dark.svg"><img src="btn-email-light.svg" alt="Email" height="44"></picture></a>
+<a href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-linkedin-dark.svg"><img src="btn-linkedin-light.svg" alt="LinkedIn" height="44"></picture></a>
+<a href="https://x.com/mehrun_nisa_"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-x-dark.svg"><img src="btn-x-light.svg" alt="X" height="44"></picture></a>
 
 </div>
 
@@ -117,9 +117,9 @@ flowchart LR
     E --> R([Report])
     H1 -.->|reject / edit| C
     H2 -.->|reject / edit| T
-    classDef agent fill:#E6EAF9,stroke:#3B4BA8,stroke-width:2px,color:#1B2236
-    classDef human fill:#FBEBCB,stroke:#9A6700,stroke-width:2px,color:#1B2236
-    classDef io fill:#DDF1EE,stroke:#0E7470,stroke-width:2px,color:#1B2236
+    classDef agent fill:#E4DEFC,stroke:#7B68E0,stroke-width:2px,color:#26213F
+    classDef human fill:#FBE3C6,stroke:#D98A2B,stroke-width:2px,color:#26213F
+    classDef io fill:#CFF1E6,stroke:#3FAE8C,stroke-width:2px,color:#26213F
     class P,C,X,T,V,E agent
     class H1,H2 human
     class D,R io
@@ -154,10 +154,12 @@ flowchart LR
 
 If you're hiring or want to collaborate, I'd love to hear from you.
 
-[![Email](https://img.shields.io/badge/Email-1F2937?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mehrunnisarahmanety@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1F2937?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/)
-[![X](https://img.shields.io/badge/X-1F2937?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mehrun_nisa_)
-[![Facebook](https://img.shields.io/badge/Facebook-1F2937?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/mehrunnisarahman.ety)
+<p>
+<a href="mailto:mehrunnisarahmanety@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-email-dark.svg"><img src="btn-email-light.svg" alt="Email" height="44"></picture></a>
+<a href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-linkedin-dark.svg"><img src="btn-linkedin-light.svg" alt="LinkedIn" height="44"></picture></a>
+<a href="https://x.com/mehrun_nisa_"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-x-dark.svg"><img src="btn-x-light.svg" alt="X" height="44"></picture></a>
+<a href="https://www.facebook.com/mehrunnisarahman.ety"><picture><source media="(prefers-color-scheme: dark)" srcset="btn-facebook-dark.svg"><img src="btn-facebook-light.svg" alt="Facebook" height="44"></picture></a>
+</p>
 
 <!-- To add your resume, delete the comment markers around the next line and replace YOUR_RESUME_LINK:
 [![Resume](https://img.shields.io/badge/Resume-0E7470?style=for-the-badge&logo=readthedocs&logoColor=white)](YOUR_RESUME_LINK)
