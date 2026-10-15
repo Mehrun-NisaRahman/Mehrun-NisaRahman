@@ -101,7 +101,7 @@ nav.top a.on{background:var(--ink);color:var(--on-ink)}
 @media (max-width:480px){.codewin{font-size:11px}.codewin pre{padding:12px 10px}.codewin .cout{padding:10px}}
 /* glass tokens */
 :root{--gl-bg:rgba(255,255,255,.55);--gl-bd:rgba(46,58,140,.14);--gl-sh:0 18px 50px rgba(46,58,140,.12)}
-:root[data-theme="dark"]{--gl-bg:rgba(255,255,255,.055);--gl-bd:rgba(255,255,255,.15);--gl-sh:0 24px 60px rgba(0,0,0,.35)}
+:root[data-theme="dark"]{--gl-bg:rgba(255,255,255,.045);--gl-bd:rgba(255,255,255,.15);--gl-sh:0 24px 60px rgba(0,0,0,.35)}
 .glass{background:var(--gl-bg);border:1px solid var(--gl-bd);box-shadow:var(--gl-sh);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);border-radius:24px}
 /* aurora hero */
 .hero{isolation:isolate;grid-template-areas:"l r" "f f";row-gap:34px;padding:70px 0 40px;min-height:min(86vh,820px)}
@@ -112,7 +112,7 @@ nav.top a.on{background:var(--ink);color:var(--on-ink)}
 .aurora i:nth-child(2){left:40%;top:-10%;width:50vw;height:36vw;background:var(--peri);opacity:.38;animation-duration:22s;animation-delay:-6s}
 .aurora i:nth-child(3){left:58%;top:40%;width:40vw;height:30vw;background:var(--gold);opacity:.34;animation-duration:26s;animation-delay:-11s}
 .aurora i:nth-child(4){left:12%;top:52%;width:42vw;height:24vw;background:var(--pink);opacity:.28;animation-duration:20s;animation-delay:-3s}
-:root[data-theme="dark"] .aurora i:nth-child(1){opacity:.55}:root[data-theme="dark"] .aurora i:nth-child(4){background:#7A1A2E;opacity:.7}
+:root[data-theme="dark"] .aurora i:nth-child(1){opacity:.34}:root[data-theme="dark"] .aurora i:nth-child(2){opacity:.2}:root[data-theme="dark"] .aurora i:nth-child(3){opacity:.16}:root[data-theme="dark"] .aurora i:nth-child(4){background:#5A1222;opacity:.55}
 @keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(6vw,4vw) scale(1.12)}100%{transform:translate(-4vw,2vw) scale(.95)}}
 .status{display:inline-flex;align-items:center;gap:10px;padding:8px 16px;border-radius:999px;font-weight:700;font-size:14px}
 .status i{width:9px;height:9px;border-radius:50%;background:#2fa36b;position:relative}
@@ -123,7 +123,8 @@ nav.top a.on{background:var(--ink);color:var(--on-ink)}
 :root{--hl:#C2407A}:root[data-theme="dark"]{--hl:#F2B8A2}
 .hero .btns{margin-top:26px;align-items:center}
 .btn.big{height:50px;padding:0 20px;font-size:15px}
-.hero .btn.gl:not(.big){padding:0 15px}
+.hero .btn.gl:not(.big){padding:0 18px}
+.hero .btns.contacts{margin-top:12px}
 .hero .role{font-size:clamp(17px,1.9vw,22px)}
 .btn.gl{background:var(--gl-bg);border:1px solid var(--gl-bd);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
 .hero .codewin{width:100%;background:var(--gl-bg);border-color:var(--gl-bd);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);border-radius:24px;box-shadow:var(--gl-sh)}
@@ -166,6 +167,15 @@ nav.top a.on{background:var(--ink);color:var(--on-ink)}
 .intro.out{opacity:0;pointer-events:none}
 .intro .iskip{width:auto;left:auto;position:absolute;top:18px;right:18px;z-index:3;height:38px;padding:0 16px;border-radius:99px;background:var(--ink);color:var(--on-ink);border:0;font-weight:700;font-size:13px;cursor:pointer}
 body.intro-on{overflow:hidden}
+
+/* living gradient name */
+:root{--sw1:#D9971A;--sw2:#D8457E;--sw3:#5566D0}
+:root[data-theme="dark"]{--sw1:#F2B8A2;--sw2:#E56B87;--sw3:#9FB8CC}
+.hero h1,.intro .icard h2{background:linear-gradient(100deg,var(--ink) 0%,var(--ink) 36%,var(--sw1) 48%,var(--sw2) 60%,var(--sw3) 72%,var(--ink) 86%,var(--ink) 100%);background-size:260% 100%;background-position:100% 0;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:sweep 7s cubic-bezier(.45,0,.25,1) infinite}
+:root[data-theme="dark"] .hero h1,:root[data-theme="dark"] .intro .icard h2{filter:drop-shadow(0 6px 28px rgba(242,184,162,.16))}
+.intro .icard h2{animation-duration:3.2s;animation-iteration-count:1;animation-delay:.5s;animation-fill-mode:both}
+@keyframes sweep{0%{background-position:100% 0}55%,100%{background-position:0% 0}}
+@media (prefers-reduced-motion:reduce){.hero h1,.intro .icard h2{animation:none;background-position:30% 0}}
 /* magnetic cursor */
 .mc-on,.mc-on *{cursor:none!important}
 .mc-on input,.mc-on textarea{cursor:text!important}
@@ -430,7 +440,9 @@ footer{text-align:center;padding:30px 0 60px;font-weight:600;opacity:.85}
       <p class="state">I design and build <em>AI systems</em> and <em>full-stack apps</em>, with people kept in the loop.</p>
       <div class="btns">
         <a class="btn gold big" href="#projects" data-cursor="Explore ↓">View my work →</a>
-        <a class="btn gl big" href="mailto:mehrunnisarahmanety@gmail.com" data-burst data-cursor="Email ↗">Email me</a>
+      </div>
+      <div class="btns contacts">
+        <a class="btn gl" href="mailto:mehrunnisarahmanety@gmail.com" data-burst data-cursor="Email ↗">Email me</a>
         <a class="btn gl" href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/" data-burst data-cursor="LinkedIn ↗">LinkedIn</a>
         <a class="btn gl" href="https://github.com/Mehrun-NisaRahman" data-burst data-cursor="GitHub ↗">GitHub</a>
         <a class="btn gl" href="https://x.com/mehrun_nisa_" data-burst data-cursor="X ↗">X</a>
