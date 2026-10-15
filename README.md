@@ -7,7 +7,7 @@
 <a href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/"><img src="bloom-btn-linkedin.svg" alt="LinkedIn" height="44"></a>
 <a href="https://x.com/mehrun_nisa_"><img src="bloom-btn-x.svg" alt="X" height="44"></a>
 
-<a href="https://mehrun-nisarahman.github.io/Mehrun-NisaRahman/"><img src="bloom-btn-live.svg" alt="Open the interactive portfolio" height="44"></a>
+<a href="https://mehrun-nisarahman.github.io/Mehrun-NisaRahman/"><img src="bloom-btn-portfolio.svg" alt="Open the portfolio" height="44"></a>
 
 </div>
 
