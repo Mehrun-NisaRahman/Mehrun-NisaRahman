@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-label="Multimodal AI, Vision-Language Models, Multi-Agent Systems, Explainability, Human-AI Collaboration" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title>Multimodal AI, Vision-Language Models, Multi-Agent Systems, Explainability, Human-AI Collaboration</title>
+<defs>
+  <linearGradient id="tg_bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBEFF3"/><stop offset="1" stop-color="#F6D9E6"/></linearGradient>
+  <linearGradient id="tg_wash" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBEFF3"/><stop offset="1" stop-color="#FFD66B"/></linearGradient>
+  <linearGradient id="tg_pg" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#7F8FE0"/><stop offset="0.55" stop-color="#F4A6C0"/><stop offset="1" stop-color="#F4A6C0"/></linearGradient>
+  <linearGradient id="tg_pg2" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#7F8FE0"/><stop offset="1" stop-color="#F4A6C0" stop-opacity="0.85"/></linearGradient>
+  <linearGradient id="tg_st0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4A6C0"/><stop offset="1" stop-color="#FFD66B"/></linearGradient>
+  <linearGradient id="tg_st1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7F8FE0"/><stop offset="1" stop-color="#FBEFF3"/></linearGradient>
+  <linearGradient id="tg_st2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD66B"/><stop offset="1" stop-color="#F4A6C0"/></linearGradient>
+  <filter id="tg_org" x="-20%" y="-20%" width="140%" height="140%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.022" numOctaves="2" seed="4" result="d"/>
+    <feDisplacementMap in="SourceGraphic" in2="d" scale="10" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+  <filter id="tg_sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2E3A8C" flood-opacity="0.28"/></filter>
+  <filter id="tg_blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+  <filter id="tg_grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="2"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0.18  0 0 0 0 0.23  0 0 0 0 0.55  0 0 0 1.5 -0.5"/>
+  </filter>
+  <filter id="tg_grainL" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="14"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1.5 -0.68"/>
+  </filter>
+  <clipPath id="tg_sheet"><rect x="-125" y="-165" width="250" height="330" rx="4"/></clipPath>
+  <clipPath id="tg_frame"><rect width="1200" height="64" rx="26"/></clipPath>
+  <path id="tg_arc" d="M -112,0 A 112,112 0 1 1 112,0 A 112,112 0 1 1 -112,0"/>
+<clipPath id="tg_card"><rect width="1200" height="64" rx="18"/></clipPath>
+<marker id="tg_ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10z" fill="#2E3A8C"/></marker>
+</defs>
+<g clip-path="url(#tg_card)">
+<rect x="106" y="14" width="143" height="36" rx="18.0" fill="#FBDCE8" fill-opacity="1" stroke="#2E3A8C" stroke-opacity="0.25" stroke-width="1.2"/><text x="177.5" y="37.4" font-size="15" font-weight="600" fill="#2E3A8C" fill-opacity="1" text-anchor="middle" letter-spacing="0">Multimodal AI</text><rect x="261" y="14" width="224" height="36" rx="18.0" fill="#DDE2FA" fill-opacity="1" stroke="#2E3A8C" stroke-opacity="0.25" stroke-width="1.2"/><text x="373.0" y="37.4" font-size="15" font-weight="600" fill="#2E3A8C" fill-opacity="1" text-anchor="middle" letter-spacing="0">Vision-Language Models</text><rect x="497" y="14" width="197" height="36" rx="18.0" fill="#FFF1C4" fill-opacity="1" stroke="#2E3A8C" stroke-opacity="0.25" stroke-width="1.2"/><text x="595.5" y="37.4" font-size="15" font-weight="600" fill="#2E3A8C" fill-opacity="1" text-anchor="middle" letter-spacing="0">Multi-Agent Systems</text><rect x="706" y="14" width="152" height="36" rx="18.0" fill="#FBDCE8" fill-opacity="1" stroke="#2E3A8C" stroke-opacity="0.25" stroke-width="1.2"/><text x="782.0" y="37.4" font-size="15" font-weight="600" fill="#2E3A8C" fill-opacity="1" text-anchor="middle" letter-spacing="0">Explainability</text><rect x="870" y="14" width="224" height="36" rx="18.0" fill="#DDE2FA" fill-opacity="1" stroke="#2E3A8C" stroke-opacity="0.25" stroke-width="1.2"/><text x="982.0" y="37.4" font-size="15" font-weight="600" fill="#2E3A8C" fill-opacity="1" text-anchor="middle" letter-spacing="0">Human-AI Collaboration</text>
+</g>
+</svg>

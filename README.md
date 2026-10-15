@@ -9,9 +9,7 @@
 
 </div>
 
-<img src="bloom-divider.svg" alt="" width="100%">
-
-## About me
+<img src="bloom-sec-about.svg" alt="About me" width="100%">
 
 I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** who loves turning ideas into working software. I build things end to end: a **database-backed marketplace**, a **machine-learning pipeline on 119K records**, a **3D game**, and a **team platform for booking home services**. My thesis explores **AI agents that work alongside human researchers** on text and image data.
 
@@ -22,7 +20,7 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** wh
   <img src="bloom-stats.svg" alt="At a glance: 4 featured projects, 119K booking records analysed, 0.91 AUC, an 11-table marketplace schema, 7 specialised thesis agents and 2 human review checkpoints" width="100%">
 </p>
 
-## What I'm looking for
+<img src="bloom-sec-looking.svg" alt="What I'm looking for" width="100%">
 
 <div align="center">
 
@@ -30,9 +28,7 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** wh
 
 </div>
 
-<img src="bloom-divider.svg" alt="" width="100%">
-
-## Projects
+<img src="bloom-sec-projects.svg" alt="Projects" width="100%">
 
 <p align="center">
   <a href="https://github.com/Mehrun-NisaRahman/cse422-project">
@@ -51,7 +47,7 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** wh
 
 <p align="center"><sub>Click any card to open the repository.</sub></p>
 
-## Skills
+<img src="bloom-sec-skills.svg" alt="Skills" width="100%">
 
 <div align="center">
 
@@ -59,9 +55,7 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** wh
 
 </div>
 
-<img src="bloom-divider.svg" alt="" width="100%">
-
-## From coursework to thesis
+<img src="bloom-sec-journey.svg" alt="From coursework to thesis" width="100%">
 
 <div align="center">
 
@@ -69,7 +63,7 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** wh
 
 </div>
 
-## Thesis: Human-in-the-Loop Multi-Agent Vision-Language Framework
+<img src="bloom-sec-thesis.svg" alt="Thesis: Human-in-the-Loop Multi-Agent Vision-Language Framework" width="100%">
 
 Qualitative coding is slow, and most AI tools only read text even though real data (product reviews, Airbnb listings) comes with images. My thesis team and I are investigating whether a **human-in-the-loop, multi-agent vision-language framework** can produce qualitative codes that are **more accurate and more explainable** than a single-agent VLM, under a matched token budget.
 
@@ -89,11 +83,11 @@ Seven specialised agents each have one job. Human researchers review the output 
 
 </div>
 
-`Multimodal AI` `Vision-Language Models` `Multi-Agent Systems` `Explainability` `Human-AI Collaboration`
+<p align="center">
+  <img src="bloom-tags.svg" alt="Multimodal AI, Vision-Language Models, Multi-Agent Systems, Explainability, Human-AI Collaboration" width="100%">
+</p>
 
-<img src="bloom-divider.svg" alt="" width="100%">
-
-## Let's talk
+<img src="bloom-sec-talk.svg" alt="Let's talk" width="100%">
 
 If you're hiring or want to collaborate, I'd love to hear from you.
 
@@ -107,8 +101,6 @@ If you're hiring or want to collaborate, I'd love to hear from you.
 <!-- To add your resume, delete the comment markers around the next line and replace YOUR_RESUME_LINK:
 [![Resume](https://img.shields.io/badge/Resume-7F8FE0?style=for-the-badge&logo=readthedocs&logoColor=white)](YOUR_RESUME_LINK)
 -->
-
-<img src="bloom-divider.svg" alt="" width="100%">
 
 <div align="center">
 
