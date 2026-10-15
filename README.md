@@ -104,26 +104,14 @@ Qualitative coding is slow, and most AI tools only read text even though real da
 
 Seven specialised agents each have one job. Human researchers review the output after coding and after theme extraction, and can accept, edit, or reject it. Every code and theme points back to its text and image evidence.
 
-```mermaid
-flowchart LR
-    D([Text + images]) --> P[Preprocess]
-    P --> C[Code]
-    C --> H1{{Human review}}
-    H1 --> X[Cross-modal reasoning]
-    X --> T[Theme extraction]
-    T --> H2{{Human review}}
-    H2 --> V[Validate]
-    V --> E[Explain]
-    E --> R([Report])
-    H1 -.->|reject / edit| C
-    H2 -.->|reject / edit| T
-    classDef agent fill:#E4DEFC,stroke:#7B68E0,stroke-width:2px,color:#26213F
-    classDef human fill:#FBE3C6,stroke:#D98A2B,stroke-width:2px,color:#26213F
-    classDef io fill:#CFF1E6,stroke:#3FAE8C,stroke-width:2px,color:#26213F
-    class P,C,X,T,V,E agent
-    class H1,H2 human
-    class D,R io
-```
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="thesis-flow-dark.svg">
+  <img src="thesis-flow-light.svg" alt="Thesis pipeline: text and images are preprocessed and coded by AI agents. A human reviews the codes and can accept, edit or reject them. Then cross-modal reasoning and theme extraction follow, a human reviews the themes, and the system validates, explains and reports." width="100%">
+</picture>
+
+</div>
 
 **How it will be evaluated** (on public multimodal data such as Amazon reviews with images, Yelp, and Airbnb listings)
 
