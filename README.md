@@ -15,7 +15,7 @@
 I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** who loves turning ideas into working software. I build things end to end: a **database-backed marketplace**, a **machine-learning pipeline on 119K records**, a **3D game**, and a **team platform for booking home services**. My thesis explores **AI agents that work alongside human researchers** on text and image data.
 
 > [!NOTE]
-> I'm looking for **internships and entry-level roles** in **AI / machine learning** and **software engineering**. The quickest way to reach me is [email](mailto:mehrunnisarahmanety@gmail.com) or [LinkedIn](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/).
+> The quickest way to reach me is [email](mailto:mehrunnisarahmanety@gmail.com) or [LinkedIn](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/).
 
 <p align="center">
   <img src="bloom-stats.svg" alt="At a glance: 4 featured projects, 119K booking records analysed, 0.91 AUC, an 11-table marketplace schema, 7 specialised thesis agents and 2 human review checkpoints" width="100%">
@@ -34,7 +34,7 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** wh
     <img src="bloom-project-rider.svg" width="49%" alt="Traffic Rider: 3D endless-runner game in Python and PyOpenGL">
   </a>
   <a href="https://github.com/Sahela-Khan/FixIt-A-Local-Home-Services-Booking-Platform">
-    <img src="bloom-project-fixit.svg" width="49%" alt="FixIt: team platform for booking local home services and tracking job status">
+    <img src="bloom-project-fixit-v3.svg" width="49%" alt="FixIt: team platform for booking local home services and tracking job status, built with the MERN stack for Software Engineering">
   </a>
 </p>
 
@@ -44,7 +44,7 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** wh
 
 <div align="center">
 
-<img src="bloom-skills.svg" alt="Skills: Python, JavaScript, PHP, SQL, scikit-learn, pandas, NumPy, matplotlib, seaborn, classification, K-Means, neural networks, MySQL, OpenGL, Git, GitHub, Jupyter. Exploring vision-language models, multi-agent systems, and explainable AI." width="100%">
+<img src="bloom-skills-v2.svg" alt="Skills: Python, JavaScript, PHP, SQL, scikit-learn, pandas, NumPy, matplotlib, seaborn, classification, K-Means, neural networks, MySQL, OpenGL, Git, GitHub, Jupyter. Exploring vision-language models, multi-agent systems, and explainable AI." width="100%">
 
 </div>
 
@@ -88,7 +88,6 @@ If you're hiring or want to collaborate, I'd love to hear from you.
 <a href="mailto:mehrunnisarahmanety@gmail.com"><img src="bloom-btn-email.svg" alt="Email" height="44"></a>
 <a href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/"><img src="bloom-btn-linkedin.svg" alt="LinkedIn" height="44"></a>
 <a href="https://x.com/mehrun_nisa_"><img src="bloom-btn-x.svg" alt="X" height="44"></a>
-<a href="https://www.facebook.com/mehrunnisarahman.ety"><img src="bloom-btn-facebook.svg" alt="Facebook" height="44"></a>
 </p>
 
 <!-- To add your resume, delete the comment markers around the next line and replace YOUR_RESUME_LINK:

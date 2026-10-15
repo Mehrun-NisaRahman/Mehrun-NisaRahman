@@ -403,7 +403,7 @@ footer{text-align:center;padding:30px 0 60px;font-weight:600;opacity:.85}
           <div class="row"><button type="button" id="f-book">Book it</button><button type="button" id="f-next" class="ghost" disabled>Advance status</button><button type="button" id="f-reset" class="ghost">Reset</button></div>
           <p class="status-note" id="f-note" aria-live="polite">Pick a service to start.</p>
         </div>
-        <div class="foot"><span class="chip">JavaScript</span><span class="chip peri">Team project</span><a href="https://github.com/Sahela-Khan/FixIt-A-Local-Home-Services-Booking-Platform">View repository →</a></div>
+        <div class="foot"><span class="chip">MERN stack</span><span class="chip peri">Software Engineering</span><a href="https://github.com/Sahela-Khan/FixIt-A-Local-Home-Services-Booking-Platform">View repository →</a></div>
       </article>
     </div>
   </section>
@@ -459,7 +459,6 @@ footer{text-align:center;padding:30px 0 60px;font-weight:600;opacity:.85}
         <a class="btn" href="mailto:mehrunnisarahmanety@gmail.com" data-burst>Email</a>
         <a class="btn peri" href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/" data-burst>LinkedIn</a>
         <a class="btn ink" href="https://x.com/mehrun_nisa_" data-burst>X</a>
-        <a class="btn gold" href="https://www.facebook.com/mehrunnisarahman.ety" data-burst>Facebook</a>
         <button class="btn" type="button" id="copy">Copy email</button>
       </div>
       <p class="copied" id="copied" aria-live="polite"></p>
@@ -717,7 +716,12 @@ function goTo(id){
   });
   // player
   const pr0=proj(.02),px=laneX(st.lane,pr0);
-  if(view===3){ctx.fillStyle=C.car;ctx.strokeStyle=C.line;ctx.lineWidth=2.2;ctx.beginPath();ctx.roundRect(px-24,H-58,48,38,10);ctx.fill();ctx.stroke();ctx.fillStyle=C.win;ctx.beginPath();ctx.roundRect(px-16,H-52,32,14,5);ctx.fill();ctx.fillStyle=C.tyre;ctx.fillRect(px-22,H-24,10,7);ctx.fillRect(px+12,H-24,10,7)}
+  if(view===3){ctx.lineWidth=2.2;ctx.strokeStyle=C.line;
+   ctx.fillStyle=C.tyre;ctx.beginPath();ctx.roundRect(px-6,H-38,12,32,5);ctx.fill();
+   ctx.fillStyle=C.car;ctx.beginPath();ctx.roundRect(px-14,H-58,28,26,9);ctx.fill();ctx.stroke();
+   ctx.fillStyle=C.win;ctx.beginPath();ctx.roundRect(px-11,H-80,22,28,9);ctx.fill();ctx.stroke();
+   ctx.fillStyle=C.car;ctx.beginPath();ctx.arc(px,H-88,9,0,7);ctx.fill();ctx.stroke();
+   ctx.strokeStyle=C.line;ctx.beginPath();ctx.moveTo(px-22,H-70);ctx.lineTo(px-10,H-64);ctx.moveTo(px+22,H-70);ctx.lineTo(px+10,H-64);ctx.stroke()}
   else{ctx.fillStyle=C.cock;ctx.beginPath();ctx.moveTo(0,H);ctx.lineTo(0,H-30);ctx.quadraticCurveTo(W/2,H-52,W,H-30);ctx.lineTo(W,H);ctx.fill();ctx.strokeStyle=C.acc;ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(px-18,H-18);ctx.lineTo(px+18,H-18);ctx.stroke()}
   if(st.flash>0){ctx.fillStyle=`rgba(${C.flash},${st.flash})`;ctx.fillRect(0,0,W,H)}
  }
@@ -760,8 +764,8 @@ function goTo(id){
 
 /* ---------- skills ---------- */
 (()=>{
- const S=[['Languages',['Python','JavaScript','PHP','SQL']],['ML & Data',['scikit-learn','pandas','NumPy','matplotlib','seaborn']],['Modelling',['Classification','K-Means','Neural networks (MLP)','ROC-AUC','Macro F1']],['Web & Databases',['MySQL schema design','PHP back end','JavaScript']],['Graphics',['OpenGL (PyOpenGL)','3D scenes','Game loops']],['Tools',['Git','GitHub','Jupyter / Colab']],['Exploring now',['Vision-language models','Multi-agent systems','Explainable AI']]];
- const U={'Python':['hotel','rider'],'JavaScript':['fixit'],'PHP':['market'],'SQL':['market'],'scikit-learn':['hotel'],'pandas':['hotel'],'NumPy':['hotel'],'matplotlib':['hotel'],'seaborn':['hotel'],'Classification':['hotel'],'K-Means':['hotel'],'Neural networks (MLP)':['hotel'],'ROC-AUC':['hotel'],'Macro F1':['hotel'],'MySQL schema design':['market'],'PHP back end':['market'],'OpenGL (PyOpenGL)':['rider'],'3D scenes':['rider'],'Game loops':['rider'],'Vision-language models':['thesis'],'Multi-agent systems':['thesis'],'Explainable AI':['thesis']};
+ const S=[['Languages',['Python','JavaScript','PHP','SQL']],['ML & Data',['scikit-learn','pandas','NumPy','matplotlib','seaborn']],['Modelling',['Classification','K-Means','Neural networks (MLP)','ROC-AUC','Macro F1']],['Web & Databases',['MySQL schema design','PHP back end','JavaScript','React','Node.js / Express','MongoDB']],['Graphics',['OpenGL (PyOpenGL)','3D scenes','Game loops']],['Tools',['Git','GitHub','Jupyter / Colab']],['Exploring now',['Vision-language models','Multi-agent systems','Explainable AI']]];
+ const U={'Python':['hotel','rider'],'JavaScript':['fixit'],'React':['fixit'],'Node.js / Express':['fixit'],'MongoDB':['fixit'],'PHP':['market'],'SQL':['market'],'scikit-learn':['hotel'],'pandas':['hotel'],'NumPy':['hotel'],'matplotlib':['hotel'],'seaborn':['hotel'],'Classification':['hotel'],'K-Means':['hotel'],'Neural networks (MLP)':['hotel'],'ROC-AUC':['hotel'],'Macro F1':['hotel'],'MySQL schema design':['market'],'PHP back end':['market'],'OpenGL (PyOpenGL)':['rider'],'3D scenes':['rider'],'Game loops':['rider'],'Vision-language models':['thesis'],'Multi-agent systems':['thesis'],'Explainable AI':['thesis']};
  const NAMES={hotel:'Hotel Booking Status Classification',market:'Online Inventory & Order Management',rider:'Traffic Rider',fixit:'FixIt',thesis:'the thesis'};
  const tabs=$('#tabs'),chips=$('#chips'),rel=$('#rel');let cat='All',picked=null;
  const cats=['All',...S.map(s=>s[0])];
