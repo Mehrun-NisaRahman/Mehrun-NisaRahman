@@ -33,6 +33,7 @@ nav.top a.on{background:var(--ink);color:#fff}
 /* hero */
 .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;padding:48px 0 24px;position:relative}
 .eyebrow{font-size:13px;font-weight:700;letter-spacing:.32em;text-transform:uppercase;opacity:.85}
+.hello{font-size:clamp(22px,2.6vw,30px);font-weight:600;margin-bottom:-6px}
 .hero h1{font-size:clamp(52px,8.2vw,108px);line-height:.92;font-weight:800;letter-spacing:-.045em;margin:18px 0 22px}
 .hero .role{font-size:clamp(18px,2.2vw,26px);font-weight:600}
 .hero .thesis-line{margin-top:6px;opacity:.8;font-size:17px}
@@ -277,7 +278,7 @@ footer{text-align:center;padding:30px 0 60px;font-weight:600;opacity:.85}
   <!-- HERO -->
   <div class="hero" id="top">
     <div>
-      <p class="eyebrow">B.Sc. Computer Science · BRAC University</p>
+      <p class="hello">Hello, I'm</p>
       <h1>Mehrun-Nisa<br>Rahman</h1>
       <p class="role">AI / Machine Learning &amp; Software Engineering</p>
       <p class="thesis-line">Thesis in progress: human-in-the-loop multi-agent AI</p>
@@ -289,7 +290,7 @@ footer{text-align:center;padding:30px 0 60px;font-weight:600;opacity:.85}
         <a class="btn" href="https://github.com/Mehrun-NisaRahman" data-burst>GitHub</a>
       </div>
     </div>
-    <div class="poster" id="poster" role="img" aria-label="Floral poster stack. Click it for a burst of flowers.">
+    <div class="poster" id="poster" role="img" aria-label="Floral poster stack that reads: Where flowers bloom so does hope. Click it for a burst of flowers.">
       <span class="hint">Click the poster</span>
     </div>
   </div>
@@ -527,7 +528,7 @@ const reveal=el=>io.observe(el);
  s+=`<g transform="translate(220,240) rotate(-3) scale(1.2)" filter="url(#shd)"><g clip-path="url(#sheetClip)"><rect x="-125" y="-165" width="250" height="330" fill="url(#wash)"/>
  <g style="mix-blend-mode:multiply" transform="translate(62,-86) scale(.62)">${flowerG('A',31,{rot:20})}</g>
  <g style="mix-blend-mode:multiply" transform="translate(-18,52) rotate(-8) scale(1.05)">${flowerG('A',7)}</g>
- <g transform="translate(6,-18) rotate(-35)"><text font-size="14" font-weight="600" letter-spacing="5" fill="#2E3A8C" fill-opacity=".9"><textPath href="#arc">MEHRUN-NISA · IN BLOOM · FLORAL POSTER · </textPath></text></g></g></g></svg>`;
+ <g transform="translate(0,-18) rotate(-4)"><text font-size="15" font-weight="600" letter-spacing="1.5" fill="#2E3A8C" fill-opacity=".9"><textPath href="#arc" startOffset="8" textLength="340" lengthAdjust="spacing">Where flowers bloom so does hope.</textPath></text></g></g></g></svg>`;
  po.insertAdjacentHTML('afterbegin',s);reveal(po);
  po.addEventListener('pointermove',e=>{if(reduce)return;const r=po.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;po.style.setProperty('--ry',(x*14)+'deg');po.style.setProperty('--rx',(-y*14)+'deg')});
  po.addEventListener('pointerleave',()=>{po.style.setProperty('--ry','0deg');po.style.setProperty('--rx','0deg')});
