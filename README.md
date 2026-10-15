@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Mehrun-Nisa Rahman — Computer Science student" width="100%" />
+<img src="banner.svg" alt="Mehrun-Nisa Rahman — Computer Science student" width="100%" />
 
 <br />
 
@@ -9,7 +9,7 @@
 
 </div>
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<img src="divider.svg" alt="" width="100%" />
 
 ## 🌸 About
 
@@ -19,7 +19,7 @@ I'm a **Computer Science** student with a growing love for programming. I like t
 - 👀 Interested in programming and software engineering
 - 📫 Reach me on [Facebook](https://www.facebook.com/mehrunnisarahman.ety)
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<img src="divider.svg" alt="" width="100%" />
 
 ## 🎨 Stack
 
@@ -31,7 +31,7 @@ I'm a **Computer Science** student with a growing love for programming. I like t
   <img src="https://img.shields.io/badge/GitHub-7F8FE0?style=flat-square&logo=github&logoColor=FFFFFF" alt="GitHub" />
 </p>
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<img src="divider.svg" alt="" width="100%" />
 
 ## 🌼 Projects
 
@@ -41,11 +41,11 @@ I'm a **Computer Science** student with a growing love for programming. I like t
 | [**cse423-project**](https://github.com/Mehrun-NisaRahman/cse423-project) | CSE423 course project | Python |
 | [**CSE370-Project-Section-07**](https://github.com/Mehrun-NisaRahman/CSE370-Project-Section-07) | CSE370 course project, Section 07 | PHP |
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<img src="divider.svg" alt="" width="100%" />
 
 <div align="center">
 
-<img src="assets/footer.svg" alt="" width="100%" />
+<img src="footer.svg" alt="" width="100%" />
 
 <sub>Always growing 🌸</sub>
 
