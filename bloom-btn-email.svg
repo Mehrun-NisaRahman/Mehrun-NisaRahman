@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="48" viewBox="0 0 124 48" role="img" aria-label="Email" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title>Email</title>
+<rect x="1.5" y="1.5" width="121" height="45" rx="22.5" fill="#FBDCE8" stroke="#2E3A8C" stroke-opacity="0.35" stroke-width="2"/>
+<rect x="18" y="16" width="22" height="16" rx="3" fill="none" stroke="#2E3A8C" stroke-width="2"/><polyline points="19,18 29,26 39,18" fill="none" stroke="#2E3A8C" stroke-width="2" stroke-linejoin="round"/>
+<text x="50" y="30" font-size="15" font-weight="700" fill="#2E3A8C" fill-opacity="1" text-anchor="start" letter-spacing="0">Email</text>
+</svg>
