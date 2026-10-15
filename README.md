@@ -1,8 +1,7 @@
 <div align="center">
 
-<img src="bloom-banner-v2.svg" alt="Mehrun-Nisa Rahman. AI, machine learning and software engineering. Open to work." width="100%">
+<img src="bloom-banner-v3.svg" alt="Mehrun-Nisa Rahman. AI, machine learning and software engineering." width="100%">
 
-<img src="bloom-btn-status.svg" alt="Status: open to work" height="44">
 <a href="mailto:mehrunnisarahmanety@gmail.com"><img src="bloom-btn-email.svg" alt="Email" height="44"></a>
 <a href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/"><img src="bloom-btn-linkedin.svg" alt="LinkedIn" height="44"></a>
 <a href="https://x.com/mehrun_nisa_"><img src="bloom-btn-x.svg" alt="X" height="44"></a>
@@ -15,22 +14,14 @@
 
 I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** who loves turning ideas into working software. I build things end to end: a **database-backed marketplace**, a **machine-learning pipeline on 119K records**, a **3D game**, and a **team platform for booking home services**. My thesis explores **AI agents that work alongside human researchers** on text and image data.
 
-> [!IMPORTANT]
-> **I'm open to work.** I'm looking for **internships and entry-level roles** in **AI / machine learning** and **software engineering**. The quickest way to reach me is [email](mailto:mehrunnisarahmanety@gmail.com) or [LinkedIn](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/).
+> [!NOTE]
+> I'm looking for **internships and entry-level roles** in **AI / machine learning** and **software engineering**. The quickest way to reach me is [email](mailto:mehrunnisarahmanety@gmail.com) or [LinkedIn](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/).
 
 <p align="center">
   <img src="bloom-stats.svg" alt="At a glance: 4 featured projects, 119K booking records analysed, 0.91 AUC, an 11-table marketplace schema, 7 specialised thesis agents and 2 human review checkpoints" width="100%">
 </p>
 
-<img src="bloom-sec-looking.svg" alt="What I'm looking for" width="100%">
-
-<div align="center">
-
-<img src="bloom-roles.svg" alt="Looking for roles in AI and machine learning, software engineering, and research assistance" width="100%">
-
-</div>
-
-<img src="bloom-sec-projects.svg" alt="Projects" width="100%">
+<img src="bloom-sec-projects-v2.svg" alt="Projects" width="100%">
 
 <p align="center">
   <a href="https://github.com/Mehrun-NisaRahman/cse422-project">
@@ -49,7 +40,7 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** wh
 
 <p align="center"><sub>Click any card to open the repository.</sub></p>
 
-<img src="bloom-sec-skills.svg" alt="Skills" width="100%">
+<img src="bloom-sec-skills-v2.svg" alt="Skills" width="100%">
 
 <div align="center">
 
@@ -57,7 +48,7 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** wh
 
 </div>
 
-<img src="bloom-sec-journey.svg" alt="From coursework to thesis" width="100%">
+<img src="bloom-sec-journey-v2.svg" alt="From coursework to thesis" width="100%">
 
 <div align="center">
 
@@ -65,7 +56,7 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** wh
 
 </div>
 
-<img src="bloom-sec-thesis.svg" alt="Thesis: Human-in-the-Loop Multi-Agent Vision-Language Framework" width="100%">
+<img src="bloom-sec-thesis-v2.svg" alt="Thesis: Human-in-the-Loop Multi-Agent Vision-Language Framework" width="100%">
 
 Qualitative coding is slow, and most AI tools only read text even though real data (product reviews, Airbnb listings) comes with images. My thesis team and I are investigating whether a **human-in-the-loop, multi-agent vision-language framework** can produce qualitative codes that are **more accurate and more explainable** than a single-agent VLM, under a matched token budget.
 
@@ -89,7 +80,7 @@ Seven specialised agents each have one job. Human researchers review the output 
   <img src="bloom-tags.svg" alt="Multimodal AI, Vision-Language Models, Multi-Agent Systems, Explainability, Human-AI Collaboration" width="100%">
 </p>
 
-<img src="bloom-sec-talk.svg" alt="Let's talk" width="100%">
+<img src="bloom-sec-talk-v2.svg" alt="Let's talk" width="100%">
 
 If you're hiring or want to collaborate, I'd love to hear from you.
 
