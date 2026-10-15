@@ -18,6 +18,10 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** wh
 > [!IMPORTANT]
 > **I'm open to work.** I'm looking for **internships and entry-level roles** in **AI / machine learning** and **software engineering**. The quickest way to reach me is [email](mailto:mehrunnisarahmanety@gmail.com) or [LinkedIn](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/).
 
+<p align="center">
+  <img src="bloom-stats.svg" alt="At a glance: 4 featured projects, 119K booking records analysed, 0.91 AUC, an 11-table marketplace schema, 7 specialised thesis agents and 2 human review checkpoints" width="100%">
+</p>
+
 ## What I'm looking for
 
 <div align="center">
@@ -88,13 +92,6 @@ Seven specialised agents each have one job. Human researchers review the output 
 `Multimodal AI` `Vision-Language Models` `Multi-Agent Systems` `Explainability` `Human-AI Collaboration`
 
 <img src="bloom-divider.svg" alt="" width="100%">
-
-## How I work
-
-> [!TIP]
-> - **I check before I trust a number.** Leakage, class imbalance, and the right metrics come before any accuracy claim.
-> - **I compare fairly.** Matched budgets and proper baselines, so gains come from the design.
-> - **I keep people in control.** AI output should be reviewable, explainable, and easy to correct.
 
 ## Let's talk
 
