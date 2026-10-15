@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="bloom-banner.svg" alt="Mehrun-Nisa Rahman: B.Sc. in Computer Science at BRAC University. AI, machine learning and software engineering. Open to work." width="100%">
+<img src="bloom-banner-v2.svg" alt="Mehrun-Nisa Rahman. AI, machine learning and software engineering. Open to work." width="100%">
 
 <img src="bloom-btn-status.svg" alt="Status: open to work" height="44">
 <a href="mailto:mehrunnisarahmanety@gmail.com"><img src="bloom-btn-email.svg" alt="Email" height="44"></a>
