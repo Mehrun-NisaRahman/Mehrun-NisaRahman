@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
-  <img src="banner-light.svg" alt="Mehrun-Nisa Rahman: B.Sc. in Computer Science and Engineering at BRAC University. AI, machine learning and software engineering. Open to work." width="100%">
+  <img src="banner-light.svg" alt="Mehrun-Nisa Rahman: B.Sc. in Computer Science at BRAC University. AI, machine learning and software engineering. Open to work." width="100%">
 </picture>
 
 ![Status](https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-0E7470?style=for-the-badge)
