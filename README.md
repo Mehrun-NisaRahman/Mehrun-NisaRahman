@@ -18,29 +18,34 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science and Engineering student at **BRAC
 > [!IMPORTANT]
 > **I'm open to work.** I'm looking for **internships and entry-level roles** in **AI / machine learning** and **software engineering**. The quickest way to reach me is [email](mailto:mehrunnisarahmanety@gmail.com) or [LinkedIn](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/).
 
-### 🌟 At a glance
+## 🎯 What I'm looking for
 
-| 🧠 **119K** | 🎯 **0.91** | 🗄️ **11** | 🚀 **4** |
-|:---:|:---:|:---:|:---:|
-| hotel bookings modeled | best model AUC | database tables designed | projects built |
+<div align="center">
+
+<img src="roles.svg" alt="Looking for roles in AI and machine learning, software engineering, and research assistance" width="100%">
+
+</div>
 
 <img src="divider.svg" alt="" width="100%">
 
-## 🎯 What I'm looking for
+## 📂 Projects
 
-| Role | Where I can help |
-| --- | --- |
-| 🧠 **AI / ML** | Data preparation, model training and **fair evaluation**, working with imbalanced data |
-| 💻 **Software engineering** | Full-stack features, **relational database design**, working in a team |
-| 🔬 **Research assistant** | Multimodal AI, **vision-language models**, human-AI collaboration |
+<p align="center">
+  <a href="https://github.com/Mehrun-NisaRahman/cse422-project"><img src="project-hotel.svg" width="49%" alt="Hotel Booking Status Classification: machine learning project comparing four models on 119K bookings, 83% accuracy and 0.91 AUC"></a>
+  <a href="https://github.com/Mehrun-NisaRahman/CSE370-Project-Section-07"><img src="project-market.svg" width="49%" alt="Online Inventory and Order Management: PHP and MySQL marketplace with an 11-table schema"></a>
+  <a href="https://github.com/Mehrun-NisaRahman/cse423-project"><img src="project-rider.svg" width="49%" alt="Traffic Rider: 3D endless-runner game in Python and PyOpenGL"></a>
+  <a href="https://github.com/Sahela-Khan/FixIt-A-Local-Home-Services-Booking-Platform"><img src="project-fixit.svg" width="49%" alt="FixIt: team platform for booking local home services and tracking job status"></a>
+</p>
 
-## ⚡ Highlights
+<p align="center"><sub>👆 Click any card to open the repository.</sub></p>
 
-- 🧠 **Machine learning:** compared **4 models** on **119K hotel bookings**, reaching **83% accuracy and 0.91 AUC**. I removed target-leakage columns and judged models on macro F1 and balanced accuracy, because only 1% of the data was the rare class.
-- 🗄️ **Databases:** designed an **11-table relational MySQL schema** for a buyer/seller marketplace with a cart, checkout, payments, and a quiz-based discount engine.
-- 🎮 **Graphics:** built a **3D endless-runner game** in Python and PyOpenGL with collisions, fuel and coin mechanics, a day/night cycle, and two camera modes.
-- 👥 **Teamwork:** worked in teams on a home-services booking platform and on my thesis.
-- 🔬 **Research:** designing a **human-in-the-loop multi-agent vision-language framework**, evaluated against a single-agent baseline with matched token budgets.
+## 🛠️ Skills
+
+<div align="center">
+
+<img src="skills.svg" alt="Skills: Python, JavaScript, PHP, SQL, scikit-learn, pandas, NumPy, matplotlib, seaborn, classification, K-Means, neural networks, MySQL, OpenGL, Git, GitHub, Jupyter. Exploring vision-language models, multi-agent systems, and explainable AI." width="100%">
+
+</div>
 
 <img src="divider.svg" alt="" width="100%">
 
@@ -51,39 +56,6 @@ I'm **Mehrun-Nisa Rahman**, a Computer Science and Engineering student at **BRAC
 <img src="journey.svg" alt="Databases, machine learning, graphics and software engineering projects feeding into a human-in-the-loop multi-agent vision-language thesis" width="100%">
 
 </div>
-
-## 🛠️ Skills
-
-| Area | Tools and techniques |
-| --- | --- |
-| **Languages** | Python · JavaScript · PHP · SQL |
-| **ML and data** | scikit-learn · pandas · NumPy · matplotlib · seaborn |
-| **Modelling** | Classification · K-Means clustering · neural networks (MLP) · ROC-AUC and macro F1 on imbalanced data |
-| **Web and databases** | MySQL schema design · PHP back end · JavaScript |
-| **Graphics** | OpenGL through PyOpenGL |
-| **Tools** | Git · GitHub · Jupyter / Colab |
-| **Exploring now** | Vision-language models · multi-agent systems · explainable AI |
-
-![Python](https://img.shields.io/badge/Python-B8E0FF?style=for-the-badge&logo=python&logoColor=3B2F63)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-C7B8F5?style=for-the-badge&logo=scikitlearn&logoColor=3B2F63)
-![Pandas](https://img.shields.io/badge/Pandas-F9B8D6?style=for-the-badge&logo=pandas&logoColor=3B2F63)
-![OpenGL](https://img.shields.io/badge/OpenGL-B5EAD7?style=for-the-badge&logo=opengl&logoColor=3B2F63)
-![JavaScript](https://img.shields.io/badge/JavaScript-FFF1B8?style=for-the-badge&logo=javascript&logoColor=3B2F63)
-![PHP](https://img.shields.io/badge/PHP-FFD3B0?style=for-the-badge&logo=php&logoColor=3B2F63)
-![MySQL](https://img.shields.io/badge/MySQL-B8E0FF?style=for-the-badge&logo=mysql&logoColor=3B2F63)
-![Git](https://img.shields.io/badge/Git-F9B8D6?style=for-the-badge&logo=git&logoColor=3B2F63)
-![GitHub](https://img.shields.io/badge/GitHub-C7B8F5?style=for-the-badge&logo=github&logoColor=3B2F63)
-
-<img src="divider.svg" alt="" width="100%">
-
-## 📂 Projects
-
-| Project | What it does | Results and highlights | Stack |
-| --- | --- | --- | --- |
-| [**Hotel Booking Status Classification**](https://github.com/Mehrun-NisaRahman/cse422-project) | Predicts whether a hotel booking ends in check-out, cancellation, or no-show | **119K** bookings, 4 models plus K-Means, **83% accuracy, 0.91 AUC**, leakage and class imbalance handled | `Python` `scikit-learn` `pandas` |
-| [**Online Inventory & Order Management**](https://github.com/Mehrun-NisaRahman/CSE370-Project-Section-07) | Buyer/seller marketplace with products, cart, checkout, payments, and order memos | **11-table** relational schema, role-based dashboards, quiz-based discount engine | `PHP` `MySQL` |
-| [**Traffic Rider**](https://github.com/Mehrun-NisaRahman/cse423-project) | 3D endless-runner game with lanes, obstacles, coins, and fuel | Day/night cycle, boost mode, first- and third-person cameras | `Python` `PyOpenGL` |
-| [**FixIt**](https://github.com/Sahela-Khan/FixIt-A-Local-Home-Services-Booking-Platform) | Platform for booking local electricians, plumbers, and cleaners and tracking job status | Built as a **team project** with real-time job tracking | `JavaScript` |
 
 ## 🔬 Thesis: Human-in-the-Loop Multi-Agent Vision-Language Framework
 
@@ -112,12 +84,13 @@ flowchart LR
     class D,R io
 ```
 
-**How it will be evaluated**
-- Compared against a **single-agent VLM** with the same codebook and the **same token budget**, and against a **classical ML baseline** trained on CLIP features
-- Agreement with human coders: **Cohen's κ, Krippendorff's α, and F1-score**
-- Explanation quality rated by experts, plus efficiency (runtime, token cost, review time) and usability (SUS)
-- Ablation studies to see which parts really help, and an ethics analysis of bias, transparency, accountability, and over-trust in AI
-- Data: public multimodal datasets such as Amazon product reviews with images, Yelp, and Airbnb listings
+**How it will be evaluated** (on public multimodal data such as Amazon reviews with images, Yelp, and Airbnb listings)
+
+<div align="center">
+
+<img src="thesis-eval.svg" alt="Evaluation plan: fair baselines, agreement with human coders, explainability and usability, ablations and ethics" width="100%">
+
+</div>
 
 `Multimodal AI` `Vision-Language Models` `Multi-Agent Systems` `Explainability` `Human-AI Collaboration`
 
