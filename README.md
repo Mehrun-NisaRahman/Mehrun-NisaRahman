@@ -12,18 +12,21 @@
 
 <img src="bloom-sec-about.svg" alt="About me" width="100%">
 
-I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** who loves turning ideas into working software. I build things end to end: a **database-backed marketplace**, a **machine-learning pipeline on 119K records**, a **3D game**, and a **team platform for booking home services**. My thesis explores **AI agents that work alongside human researchers** on text and image data.
+I'm **Mehrun-Nisa Rahman**, a Computer Science student at **BRAC University** who loves turning ideas into working software. I build things end to end: **LoopLens, an AI system where three agents check online orders and a human decides**, a **database-backed marketplace**, a **machine-learning pipeline on 119K records**, a **3D game**, and a **team platform for booking home services**. My thesis explores **AI agents that work alongside human researchers** on text and image data.
 
 > [!NOTE]
 > The quickest way to reach me is [email](mailto:mehrunnisarahmanety@gmail.com) or [LinkedIn](https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/).
 
 <p align="center">
-  <img src="bloom-stats.svg" alt="At a glance: 4 featured projects, 119K booking records analysed, 0.91 AUC, an 11-table marketplace schema, 7 specialised thesis agents and 2 human review checkpoints" width="100%">
+  <img src="bloom-stats.svg" alt="At a glance: 5 featured projects, 119K booking records analysed, 0.91 AUC, an 11-table marketplace schema, 7 specialised thesis agents and 2 human review checkpoints" width="100%">
 </p>
 
 <img src="bloom-sec-projects-v2.svg" alt="Projects" width="100%">
 
 <p align="center">
+  <a href="https://github.com/Mehrun-NisaRahman/LoopLens">
+    <img src="bloom-project-looplens.svg" width="98.5%" alt="LoopLens: three AI agents check whether what an online buyer received matches the product listing, and a human confirms or overrules each verdict. 97% agreement on a blind test set, 27% fewer tokens with text-first routing, 90 hand-labelled Amazon cases">
+  </a>
   <a href="https://github.com/Mehrun-NisaRahman/cse422-project">
     <img src="bloom-project-hotel.svg" width="49%" alt="Hotel Booking Status Classification: machine learning project comparing four models on 119K bookings, 83% accuracy and 0.91 AUC">
   </a>
@@ -90,9 +93,7 @@ If you're hiring or want to collaborate, I'd love to hear from you.
 <a href="https://x.com/mehrun_nisa_"><img src="bloom-btn-x.svg" alt="X" height="44"></a>
 </p>
 
-<!-- To add your resume, delete the comment markers around the next line and replace YOUR_RESUME_LINK:
-[![Resume](https://img.shields.io/badge/Resume-7F8FE0?style=for-the-badge&logo=readthedocs&logoColor=white)](YOUR_RESUME_LINK)
--->
+[![Download CV](https://img.shields.io/badge/Download_CV-7F8FE0?style=for-the-badge&logo=readthedocs&logoColor=white)](https://mehrun-nisarahman.github.io/Mehrun-NisaRahman/cv/Mehrun-Nisa-Rahman-CV.pdf)
 
 <div align="center">
 
