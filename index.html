@@ -20,6 +20,7 @@
 <meta name="twitter:title" content="Mehrun-Nisa Rahman · AI/ML & Software Engineering">
 <meta name="twitter:description" content="I build AI systems and full-stack apps, with people kept in the loop.">
 <meta name="twitter:image" content="https://mehrun-nisarahman.github.io/Mehrun-NisaRahman/og-image.jpg">
+<link rel="preload" href="fonts/syne-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <script>try{if(sessionStorage.getItem("introSeen")||matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("no-intro")}catch(e){}</script>
@@ -378,6 +379,8 @@ section{margin:56px 0}
 .journey>div{display:flex;flex-direction:column}
 .jn{text-align:left;width:100%;flex:1;transition:transform .25s,box-shadow .25s}
 .jn:hover,.jn:focus-visible{transform:translateY(-6px);box-shadow:0 12px 0 rgba(var(--ink-rgb),.12)}
+.jn{display:flex;flex-direction:column;justify-content:flex-start}
+.jn .cap{margin-top:auto}
 .jn h3{font-size:18.5px;font-weight:800;letter-spacing:-.02em;margin:10px 0 18px;line-height:1.2;min-height:48px}
 .jn .cap{font-weight:600;font-size:14px;opacity:.85;display:flex;gap:8px;align-items:center}
 .jn .cap i{width:9px;height:9px;border-radius:50%;background:var(--ink);opacity:.7;display:inline-block}
@@ -450,6 +453,7 @@ footer{text-align:center;padding:30px 0 60px;font-weight:600;opacity:.85}
 .theme{position:fixed;bottom:22px;right:22px;z-index:71;width:54px;height:54px;padding:0;justify-content:center;border-radius:50%;background:var(--ink);color:var(--on-ink);box-shadow:0 8px 24px rgba(0,0,0,.28)}.theme:hover{background:var(--ink);transform:scale(1.06)}.theme .tl{display:none}.theme svg{width:22px;height:22px}
 
 /* =================== COSMIC BLOOM =================== */
+@font-face{font-family:"Syne";src:url(fonts/syne-latin-800-normal.woff2) format("woff2");font-weight:800;font-display:swap}
 @font-face{font-family:"Unbounded";src:url(fonts/unbounded-latin-800-normal.woff2) format("woff2");font-weight:800;font-display:swap}
 @font-face{font-family:"Unbounded";src:url(fonts/unbounded-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
 @font-face{font-family:"Space Grotesk";src:url(fonts/space-grotesk-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
@@ -523,8 +527,8 @@ h2,h3,.band h2{font-family:var(--fd);letter-spacing:-.02em}
 :root[data-theme="dark"] .btn.prim{box-shadow:0 0 30px rgba(255,77,141,.25)}
 .btn.prim:hover{box-shadow:0 0 0 4px color-mix(in srgb,var(--neo1) 35%,transparent)}
 .hero.cosmic .btn.gl{height:42px;padding:0 18px;font-size:14px;background:var(--gl-bg);border:1px solid var(--gl-bd)}
-.hud{position:absolute;bottom:34px;font:600 11px var(--fm);letter-spacing:.24em;color:var(--mut);text-transform:uppercase;pointer-events:none}
-.hud b{color:var(--neo2);font-weight:600}
+.hero .hud{position:absolute;bottom:34px;font:600 11px var(--fm);letter-spacing:.24em;color:var(--mut);text-transform:uppercase;pointer-events:none}
+.hero .hud b{color:var(--neo2);font-weight:600}
 .hud-l{left:0}.hud-r{right:0;text-align:right;line-height:1.9}
 @media (max-width:900px){
  .hero.cosmic{min-height:0;padding:56px 0 min(108vw,470px)}
@@ -594,6 +598,16 @@ h2,h3,.band h2{font-family:var(--fd);letter-spacing:-.02em}
 .cintro.boom .iring,.cintro.boom .ihint,.cintro.boom .icap,.cintro.boom .skipi{opacity:0;transition:opacity .25s}
 .cintro.boom .iname{transform:scale(1.15);transition:transform .9s cubic-bezier(.2,.8,.2,1)}
 @media (max-width:600px){.cintro .iname{top:calc(50% - 150px)}.cintro .ihint{letter-spacing:.2em;font-size:10.5px}}
+
+/* ---- type scale v2: calmer headings ---- */
+.hero.cosmic h1{font-family:"Syne",var(--fd);font-weight:800;font-size:clamp(26px,3.3vw,50px);letter-spacing:0;line-height:1.08}
+.band h2{font-size:clamp(24px,3.1vw,40px);letter-spacing:-.01em;line-height:1.1}
+.proj h3{font-size:20px;letter-spacing:-.01em}
+.role h3{font-size:20px}
+.jn h3{font-size:17px;letter-spacing:-.01em}
+.thesis-card h3{font-size:clamp(18px,2.2vw,26px)}
+.ll-stats b{font-size:24px}
+.cintro .iname{font-family:"Syne",var(--fd);font-size:clamp(18px,3vw,34px)}
 </style>
 <script>try{var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
