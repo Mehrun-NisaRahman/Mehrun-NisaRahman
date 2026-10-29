@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="189" height="48" viewBox="0 0 189 48" role="img" aria-label="Status: open to work" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
-<title>Status: open to work</title>
-<rect x="1.5" y="1.5" width="186" height="45" rx="22.5" fill="#FFD66B" stroke="#2E3A8C" stroke-opacity="0.35" stroke-width="2"/>
-<circle cx="28" cy="24" r="12" fill="#2E3A8C" fill-opacity="0.15"/><circle cx="28" cy="24" r="6" fill="#2E3A8C"/>
-<text x="50" y="30" font-size="15" font-weight="700" fill="#2E3A8C" fill-opacity="1" text-anchor="start" letter-spacing="0">Open to work</text>
-</svg>

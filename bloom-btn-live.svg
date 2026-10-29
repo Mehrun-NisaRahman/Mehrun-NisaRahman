@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="262" height="48" viewBox="0 0 262 48" role="img" aria-label="Open the interactive portfolio" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
-<title>Open the interactive portfolio</title>
-<rect x="1.5" y="1.5" width="259" height="45" rx="22.5" fill="#FFD66B" stroke="#2E3A8C" stroke-opacity="0.35" stroke-width="2"/>
-<circle cx="28" cy="24" r="10" fill="none" stroke="#2E3A8C" stroke-width="2.4"/><polygon points="25,19 25,29 33,24" fill="#2E3A8C"/>
-<text x="50" y="30" font-size="15" font-weight="700" fill="#2E3A8C" fill-opacity="1" text-anchor="start" letter-spacing="0">Open interactive portfolio</text>
-</svg>

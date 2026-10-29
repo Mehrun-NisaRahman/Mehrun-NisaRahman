@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 189 48" width="189" height="48" role="img" aria-label="Open to work">
-<defs></defs>
-<g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"><rect x="1.5" y="1.5" width="186" height="44" rx="12" fill="#D8F3EA" stroke="#1F7A63" stroke-width="1.5"/><g transform="translate(30,23.5)"><circle r="6" fill="#1F7A63"/><circle r="6" fill="none" stroke="#1F7A63" stroke-width="2"><animate attributeName="r" values="6;13" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3s" repeatCount="indefinite"/></circle></g><text x="52" y="29.0" font-size="16" font-weight="700" fill="#26213F" text-anchor="start" >Open to work</text>
-</g>
-</svg>
