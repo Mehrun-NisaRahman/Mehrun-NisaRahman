@@ -963,7 +963,8 @@ $$('.band').forEach((b,i)=>{
 (()=>{
  const links=$$('nav.top a'),map=Object.fromEntries(links.map(a=>[a.dataset.s,a]));
  const ids=['top','about','looking','projects','skills','journey','thesis','talk'];
- const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){links.forEach(a=>a.classList.remove('on'));map[e.target.id]&&map[e.target.id].classList.add('on')}}),{rootMargin:'-35% 0px -55% 0px'});
+ const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){links.forEach(a=>a.classList.remove('on'));
+  const on=map[e.target.id];if(on){on.classList.add('on');const ul=on.closest('ul');if(ul&&ul.scrollWidth>ul.clientWidth)ul.scrollTo({left:on.offsetLeft-ul.clientWidth/2+on.offsetWidth/2,behavior:'smooth'})}}}),{rootMargin:'-35% 0px -55% 0px'});
  ids.forEach(id=>{const el=document.getElementById(id);el&&o.observe(el)});
 })();
 
@@ -1054,6 +1055,8 @@ function goTo(id){
 })();
 
 /* ---------- Traffic Rider mini game ---------- */
+if(window.CanvasRenderingContext2D&&!CanvasRenderingContext2D.prototype.roundRect){
+ CanvasRenderingContext2D.prototype.roundRect=function(x,y,w,h,r){r=Math.min(+r||0,w/2,h/2);this.moveTo(x+r,y);this.arcTo(x+w,y,x+w,y+h,r);this.arcTo(x+w,y+h,x,y+h,r);this.arcTo(x,y+h,x,y,r);this.arcTo(x,y,x+w,y,r);this.closePath();return this}}
 (()=>{
  const cv=$('#rider'),ctx=cv.getContext('2d'),W=cv.width,H=cv.height;
  const over=$('#r-over'),msg=$('#r-msg'),startB=$('#r-start'),fuelEl=$('#r-fuel'),livesEl=$('#r-lives'),scoreEl=$('#r-score');
@@ -1234,7 +1237,7 @@ function goTo(id){
  }
  startB.addEventListener('click',()=>{stop();rejects=0;startB.textContent='Running…';startB.disabled=true;show(0)});
  resetB.addEventListener('click',()=>{stop();pos=-1;paint();dec.classList.add('hide');startB.disabled=false;startB.textContent='Start';log.textContent='Press Start to send text and images through the pipeline.'});
- dec.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const s=S[pos],d=b.dataset.d;dec.classList.add('hide');
+ dec.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const s=S[pos];if(!s||s.t!=='hu')return;const d=b.dataset.d;dec.classList.add('hide');
   if(d==='reject'){rejects++;log.textContent=`Rejected. The pipeline goes back to “${S[s.back].n}” for another pass.`;timer=setTimeout(()=>show(s.back),reduce?400:1100)}
   else{log.textContent=d==='edit'?'Edited by the human reviewer. The pipeline continues.':'Accepted. The pipeline continues.';timer=setTimeout(()=>show(pos+1),reduce?400:900)}
   burst(e.clientX,e.clientY,4)});
@@ -1396,7 +1399,7 @@ const onTheme=f=>new MutationObserver(f).observe(document.documentElement,{attri
  function frame(now){const dt=Math.min(.05,(now-last)/1000);last=now;const t=(now-t0)/1000;
   if(boom<0){if(!holding&&t>4.2)auto=true;
    if(holding)p+=dt/1.7;else if(auto)p=Math.max(p+dt/2.2,(t-4.2)/2.2);else p=Math.max(0,p-dt*.5);p=cl(p);
-   if(p>=1){boom=0;navigator.vibrate&&navigator.vibrate(30);intro.classList.add('boom');hint.textContent='WELCOME';}}
+   if(p>=1){boom=0;try{navigator.userActivation&&navigator.userActivation.hasBeenActive&&navigator.vibrate&&navigator.vibrate(30)}catch(e){}intro.classList.add('boom');hint.textContent='WELCOME';}}
   else{boom=Math.min(1,boom+dt/.9);if(!window.__bt)window.__bt=now;if(now-window.__bt>1100)boom=1}
   const pe=eio(p),bz=boom<0?0:eio(boom);
   spin+=dt*(.25+pe*2.4);
