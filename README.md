@@ -4,7 +4,6 @@
 
 <a href="mailto:mehrunnisarahmanety@gmail.com"><img src="bloom-btn-email.svg" alt="Email" height="44"></a>
 <a href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/"><img src="bloom-btn-linkedin.svg" alt="LinkedIn" height="44"></a>
-<a href="https://x.com/mehrun_nisa_"><img src="bloom-btn-x.svg" alt="X" height="44"></a>
 
 <a href="https://mehrun-nisarahman.github.io/Mehrun-NisaRahman/"><img src="bloom-btn-portfolio.svg" alt="Open the portfolio" height="44"></a>
 
@@ -90,7 +89,6 @@ If you're hiring or want to collaborate, I'd love to hear from you.
 <p>
 <a href="mailto:mehrunnisarahmanety@gmail.com"><img src="bloom-btn-email.svg" alt="Email" height="44"></a>
 <a href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/"><img src="bloom-btn-linkedin.svg" alt="LinkedIn" height="44"></a>
-<a href="https://x.com/mehrun_nisa_"><img src="bloom-btn-x.svg" alt="X" height="44"></a>
 </p>
 
 [![Download CV](https://img.shields.io/badge/Download_CV-7F8FE0?style=for-the-badge&logo=readthedocs&logoColor=white)](https://mehrun-nisarahman.github.io/Mehrun-NisaRahman/cv/Mehrun-Nisa-Rahman-CV.pdf)

@@ -609,6 +609,10 @@ h2,h3,.band h2{font-family:var(--fd);letter-spacing:-.02em}
 .ll-stats b{font-size:24px}
 .cintro .iname{font-family:"Syne",var(--fd);font-size:clamp(18px,3vw,34px)}
 .hero.cosmic .btn.cvbtn{height:50px;padding:0 20px;font-size:15px;gap:8px}
+.talk .btns.talk-main{margin-top:24px}
+.talk .btns.talk-links{margin-top:12px}
+.talk .btn.gl{height:42px;padding:0 18px;font-size:14px;background:var(--gl-bg);border:1px solid var(--gl-bd);color:var(--ink)}
+.talk .btn.gl.big{height:50px;padding:0 22px;font-size:15px}
 </style>
 <script>try{var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
@@ -661,7 +665,6 @@ h2,h3,.band h2{font-family:var(--fd);letter-spacing:-.02em}
         <a class="btn gl" href="mailto:mehrunnisarahmanety@gmail.com" data-burst data-cursor="Email ↗">Email</a>
         <a class="btn gl" href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/" data-burst data-cursor="LinkedIn ↗">LinkedIn</a>
         <a class="btn gl" href="https://github.com/Mehrun-NisaRahman" data-burst data-cursor="GitHub ↗">GitHub</a>
-        <a class="btn gl" href="https://x.com/mehrun_nisa_" data-burst data-cursor="X ↗">X</a>
       </div>
     </div>
     <p class="hud hud-l" aria-hidden="true">Scroll ↓ &nbsp;·&nbsp; <b>Thesis in progress</b></p>
@@ -846,12 +849,14 @@ h2,h3,.band h2{font-family:var(--fd);letter-spacing:-.02em}
     <header class="band" data-band="talk" id="h-talk"></header>
     <div class="talk">
       <p>If you're hiring or want to collaborate, I'd love to hear from you.</p>
-      <div class="btns">
-        <a class="btn" href="mailto:mehrunnisarahmanety@gmail.com" data-burst>Email</a>
-        <a class="btn peri" href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/" data-burst>LinkedIn</a>
-        <a class="btn ink" href="https://x.com/mehrun_nisa_" data-burst>X</a>
-        <button class="btn" type="button" id="copy">Copy email</button>
-        <a class="btn gold" href="cv/Mehrun-Nisa-Rahman-CV.pdf" download data-burst>Download CV</a>
+      <div class="btns talk-main">
+        <a class="btn prim big" href="mailto:mehrunnisarahmanety@gmail.com" data-burst>Email me</a>
+        <a class="btn gl big" href="cv/Mehrun-Nisa-Rahman-CV.pdf" download data-burst>Download CV</a>
+      </div>
+      <div class="btns talk-links">
+        <a class="btn gl" href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/">LinkedIn</a>
+        <a class="btn gl" href="https://github.com/Mehrun-NisaRahman">GitHub</a>
+        <button class="btn gl" type="button" id="copy">Copy email</button>
       </div>
       <p class="copied" id="copied" aria-live="polite"></p>
     </div>
