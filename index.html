@@ -261,6 +261,32 @@ section{margin:56px 0}
 .proj .widget{flex:1;background:rgba(var(--surf-rgb),.55);border:1.5px solid rgba(var(--ink-rgb),.22);border-radius:16px;padding:14px;display:flex;flex-direction:column;justify-content:center;min-height:210px}
 .proj .foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .proj .foot a{margin-left:auto;font-weight:700;font-size:14px}
+/* looplens */
+.ll-feat{grid-column:1/-1;min-height:0}
+.ll-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ll-stats div{background:rgba(var(--surf-rgb),.5);border:1px solid rgba(var(--ink-rgb),.18);border-radius:14px;padding:10px 14px}
+.ll-stats b{display:block;font-size:26px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
+.ll-stats span{font-size:12.5px;opacity:.85}
+.ll-top{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+.ll-top .lbl{margin-right:auto}
+.ll-seg{display:inline-flex;border:1.5px solid rgba(var(--ink-rgb),.35);border-radius:999px;overflow:hidden}
+.ll-seg button{border:0;background:var(--white);padding:5px 12px;font-size:12px;font-weight:700;color:var(--ink);cursor:pointer}
+.ll-seg button[aria-pressed="true"]{background:var(--gold);color:var(--dtext)}
+.ll-review{margin:12px 0 4px;font-size:15px;font-style:italic;min-height:24px}
+.ll-flow{display:flex;align-items:stretch;gap:6px;margin-top:8px}
+.ll-node{flex:1;border:1.5px solid rgba(var(--ink-rgb),.3);border-radius:14px;padding:10px 12px;background:rgba(var(--surf-rgb),.6);transition:background .3s,opacity .3s,transform .3s,border-color .3s;min-width:0}
+.ll-node b{display:block;font-size:14px}
+.ll-node small{font-size:11.5px;opacity:.8}
+.ll-node.on{background:var(--peri);color:var(--dtext);border-color:transparent;transform:translateY(-3px)}
+.ll-node.hu.on{background:var(--gold)}
+.ll-node.ll-skip{opacity:.38;border-style:dashed}
+.ll-node.ll-skip small::after{content:" · skipped"}
+.ll-ar{align-self:center;width:14px;height:2px;background:rgba(var(--ink-rgb),.4);flex:none;position:relative}
+.ll-ar::after{content:"";position:absolute;right:-1px;top:-4px;border:5px solid transparent;border-left-color:rgba(var(--ink-rgb),.55);border-right:0}
+.ll-note{font-size:13.5px;font-weight:600;margin-top:12px;min-height:40px}
+.ll-note .v{display:inline-block;padding:2px 10px;border-radius:999px;font-weight:800;margin-right:6px;color:var(--dtext)}
+.ll-note .v.match{background:var(--peri)}.ll-note .v.mismatch{background:var(--pink)}
+@media (max-width:760px){.ll-stats{grid-template-columns:1fr}.ll-flow{flex-direction:column}.ll-ar{transform:rotate(90deg);margin:2px auto}}
 /* hotel */
 .hotel{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:end}
 .bars{display:flex;gap:14px;align-items:flex-end;height:150px;padding-top:24px}
@@ -615,7 +641,7 @@ h2,h3,.band h2{font-family:var(--fd);letter-spacing:-.02em}
     <p class="lead">I'm <strong>Mehrun-Nisa Rahman</strong>, a Computer Science student at <strong>BRAC University</strong> who loves turning ideas into working software. I build things end to end: a <strong>database-backed marketplace</strong>, a <strong>machine-learning pipeline on 119K records</strong>, a <strong>3D game</strong>, and a <strong>team platform for booking home services</strong>. My thesis explores <strong>AI agents that work alongside human researchers</strong> on text and image data.</p>
     <p class="note"><strong>I'm open to work.</strong> I'm looking for <strong>internships and entry-level roles</strong> in <strong>AI / machine learning</strong> and <strong>software engineering</strong>. The quickest way to reach me is <a href="mailto:mehrunnisarahmanety@gmail.com">email</a> or <a href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/">LinkedIn</a>.</p>
     <div class="stats" id="stats">
-      <button class="stat" data-count="4" data-detail="Hotel Booking Status Classification, Online Inventory &amp; Order Management, Traffic Rider and FixIt." aria-pressed="false"><span class="n">0</span><span class="l">featured projects</span><span class="d"></span><span class="more">TAP</span></button>
+      <button class="stat" data-count="5" data-detail="LoopLens, Hotel Booking Status Classification, Online Inventory &amp; Order Management, Traffic Rider and FixIt." aria-pressed="false"><span class="n">0</span><span class="l">featured projects</span><span class="d"></span><span class="more">TAP</span></button>
       <button class="stat" data-count="119" data-suffix="K" data-detail="booking records used to compare four models and K-Means in the hotel project." aria-pressed="false"><span class="n">0</span><span class="l">booking records analysed</span><span class="d"></span><span class="more">TAP</span></button>
       <button class="stat" data-count="0.91" data-dec="2" data-detail="AUC in the hotel booking project, with 83% test accuracy for the best model." aria-pressed="false"><span class="n">0</span><span class="l">AUC on hotel bookings</span><span class="d"></span><span class="more">TAP</span></button>
       <button class="stat" data-count="11" data-detail="tables in the PHP and MySQL marketplace schema." aria-pressed="false"><span class="n">0</span><span class="l">tables in the marketplace schema</span><span class="d"></span><span class="more">TAP</span></button>
@@ -634,6 +660,37 @@ h2,h3,.band h2{font-family:var(--fd);letter-spacing:-.02em}
   <section id="projects" aria-labelledby="h-projects">
     <header class="band" data-band="projects" id="h-projects"></header>
     <div class="projects">
+      <article class="card peri proj ll-feat" data-id="looplens" id="p-looplens">
+        <span class="tag" style="align-self:flex-start">AI systems · newest</span>
+        <h3>LoopLens</h3>
+        <p class="desc">Checks whether what an online buyer received matches the product listing, from the review text and the customer's photo. Three AI agents give a verdict; a human confirms or overrules it.</p>
+        <div class="ll-stats">
+          <div><b>97%</b><span>agreement with my labels on a blind test set</span></div>
+          <div><b>27%</b><span>fewer tokens with text-first routing</span></div>
+          <div><b>90</b><span>real Amazon cases, hand-labelled</span></div>
+        </div>
+        <div class="widget" id="w-looplens">
+          <div class="ll-top">
+            <p class="lbl">Try it · pick a review</p>
+            <div class="ll-seg" role="group" aria-label="Example review">
+              <button type="button" data-ex="happy" aria-pressed="true">Happy review</button><button type="button" data-ex="complaint" aria-pressed="false">Complaint</button>
+            </div>
+            <div class="ll-seg" role="group" aria-label="Routing mode">
+              <button type="button" data-mode="smart" aria-pressed="true">Smart</button><button type="button" data-mode="full" aria-pressed="false">Full</button>
+            </div>
+          </div>
+          <p class="ll-review" id="ll-review"></p>
+          <div class="ll-flow" id="ll-flow">
+            <div class="ll-node" data-n="0"><b>Router</b><small>reads the text</small></div><i class="ll-ar" aria-hidden="true"></i>
+            <div class="ll-node" data-n="1"><b>Photo inspector</b><small>compares photos</small></div><i class="ll-ar" aria-hidden="true"></i>
+            <div class="ll-node" data-n="2"><b>Judge</b><small>applies the rules</small></div><i class="ll-ar" aria-hidden="true"></i>
+            <div class="ll-node hu" data-n="3"><b>You</b><small>confirm or overrule</small></div>
+          </div>
+          <p class="ll-note" id="ll-note" aria-live="polite"></p>
+        </div>
+        <div class="foot"><span class="chip">Python</span><span class="chip peri">FastAPI</span><span class="chip gold">Vision-language models</span><span class="chip">Multi-agent</span><a href="https://github.com/Mehrun-NisaRahman/LoopLens">View repository →</a></div>
+      </article>
+
       <article class="card proj" data-id="hotel" id="p-hotel">
         <span class="tag" style="align-self:flex-start">Machine learning</span>
         <h3>Hotel Booking Status Classification</h3>
@@ -900,7 +957,7 @@ $$('.band').forEach((b,i)=>{
  const R=[
   ['AI / Machine Learning','Data preparation, model training, and fair evaluation on imbalanced data.','card',
    '<circle cx="14" cy="16" r="3.5" fill="var(--ink)"/><circle cx="34" cy="16" r="3.5" fill="var(--ink)"/><circle cx="24" cy="34" r="3.5" fill="var(--ink)"/><path d="M14 16L34 16L24 34Z" fill="none" stroke="var(--ink)" stroke-width="2"/>',
-   [['Hotel Booking Status Classification','hotel'],['Thesis','thesis']]],
+   [['LoopLens','looplens'],['Hotel Booking Status Classification','hotel'],['Thesis','thesis']]],
   ['Software Engineering','Full-stack features, relational database design, and working well in a team.','card peri',
    '<text x="24" y="31" text-anchor="middle" font-size="17" font-weight="800" fill="var(--ink)">&lt;/&gt;</text>',
    [['Online Inventory & Order Management','market'],['FixIt','fixit']]],
@@ -1052,11 +1109,40 @@ function goTo(id){
  paint();
 })();
 
+/* ---------- LoopLens ---------- */
+(()=>{
+ const w=$('#w-looplens');if(!w)return;
+ const EX={happy:{text:'★★★★★ “Exactly like the picture, love the colour!”',complaint:false,verdict:'match',why:'consistent with the listing'},
+           complaint:{text:'★☆☆☆☆ “The lid was missing from the box.”',complaint:true,verdict:'mismatch',why:'missing parts · photo confirms it'}};
+ const nodes=$$('.ll-node',w),note=$('#ll-note'),rev=$('#ll-review');
+ const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+ let ex='happy',mode='smart',timers=[];
+ function run(){
+  timers.forEach(clearTimeout);timers=[];
+  const e=EX[ex],skip=mode==='smart'&&!e.complaint;
+  rev.textContent=e.text;note.innerHTML='';
+  nodes.forEach(n=>n.classList.remove('on','ll-skip'));
+  const path=skip?[0,3]:[0,1,2,3];
+  if(skip){nodes[1].classList.add('ll-skip');nodes[2].classList.add('ll-skip')}
+  path.forEach((i,k)=>timers.push(setTimeout(()=>nodes[i].classList.add('on'),reduce?0:k*420)));
+  timers.push(setTimeout(()=>{
+   const calls=skip?1:3;
+   note.innerHTML=`<span class="v ${e.verdict}">${e.verdict}</span>${e.why}. `+
+    (skip?'Clear, complaint-free review, so the photos were skipped: 1 model call instead of 3.'
+         :e.complaint?'A complaint needs evidence, so the photos are checked: 3 model calls.'
+         :'Full mode checks the photos every time: 3 model calls.');
+  },reduce?0:path.length*420));
+ }
+ $$('[data-ex]',w).forEach(b=>b.addEventListener('click',()=>{ex=b.dataset.ex;$$('[data-ex]',w).forEach(x=>x.setAttribute('aria-pressed',String(x===b)));run()}));
+ $$('[data-mode]',w).forEach(b=>b.addEventListener('click',()=>{mode=b.dataset.mode;$$('[data-mode]',w).forEach(x=>x.setAttribute('aria-pressed',String(x===b)));run()}));
+ const io=new IntersectionObserver(es=>{if(es.some(x=>x.isIntersecting)){run();io.disconnect()}},{threshold:.4});io.observe(w);
+})();
+
 /* ---------- skills ---------- */
 (()=>{
- const S=[['Languages',['Python','JavaScript','PHP','SQL']],['ML & Data',['scikit-learn','pandas','NumPy','matplotlib','seaborn']],['Modelling',['Classification','K-Means','Neural networks (MLP)','ROC-AUC','Macro F1']],['Web & Databases',['MySQL schema design','PHP back end','JavaScript','React','Node.js / Express','MongoDB']],['Graphics',['OpenGL (PyOpenGL)','3D scenes','Game loops']],['Tools',['Git','GitHub','Jupyter / Colab']],['Exploring now',['Vision-language models','Multi-agent systems','Explainable AI']]];
- const U={'Python':['hotel','rider'],'JavaScript':['fixit'],'React':['fixit'],'Node.js / Express':['fixit'],'MongoDB':['fixit'],'PHP':['market'],'SQL':['market'],'scikit-learn':['hotel'],'pandas':['hotel'],'NumPy':['hotel'],'matplotlib':['hotel'],'seaborn':['hotel'],'Classification':['hotel'],'K-Means':['hotel'],'Neural networks (MLP)':['hotel'],'ROC-AUC':['hotel'],'Macro F1':['hotel'],'MySQL schema design':['market'],'PHP back end':['market'],'OpenGL (PyOpenGL)':['rider'],'3D scenes':['rider'],'Game loops':['rider'],'Vision-language models':['thesis'],'Multi-agent systems':['thesis'],'Explainable AI':['thesis']};
- const NAMES={hotel:'Hotel Booking Status Classification',market:'Online Inventory & Order Management',rider:'Traffic Rider',fixit:'FixIt',thesis:'the thesis'};
+ const S=[['Languages',['Python','JavaScript','PHP','SQL']],['ML & Data',['scikit-learn','pandas','NumPy','matplotlib','seaborn']],['Modelling',['Classification','K-Means','Neural networks (MLP)','ROC-AUC','Macro F1']],['Web & Databases',['FastAPI','MySQL schema design','PHP back end','JavaScript','React','Node.js / Express','MongoDB']],['Graphics',['OpenGL (PyOpenGL)','3D scenes','Game loops']],['Tools',['Git','GitHub','Jupyter / Colab']],['Exploring now',['Vision-language models','Multi-agent systems','Explainable AI']]];
+ const U={'Python':['looplens','hotel','rider'],'FastAPI':['looplens'],'JavaScript':['fixit'],'React':['fixit'],'Node.js / Express':['fixit'],'MongoDB':['fixit'],'PHP':['market'],'SQL':['market'],'scikit-learn':['hotel'],'pandas':['hotel'],'NumPy':['hotel'],'matplotlib':['hotel'],'seaborn':['hotel'],'Classification':['hotel'],'K-Means':['hotel'],'Neural networks (MLP)':['hotel'],'ROC-AUC':['hotel'],'Macro F1':['hotel'],'MySQL schema design':['market'],'PHP back end':['market'],'OpenGL (PyOpenGL)':['rider'],'3D scenes':['rider'],'Game loops':['rider'],'Vision-language models':['looplens','thesis'],'Multi-agent systems':['looplens','thesis'],'Explainable AI':['thesis']};
+ const NAMES={looplens:'LoopLens',hotel:'Hotel Booking Status Classification',market:'Online Inventory & Order Management',rider:'Traffic Rider',fixit:'FixIt',thesis:'the thesis'};
  const tabs=$('#tabs'),chips=$('#chips'),rel=$('#rel');let cat='All',picked=null;
  const cats=['All',...S.map(s=>s[0])];
  cats.forEach(c=>{const b=document.createElement('button');b.type='button';b.textContent=c;b.setAttribute('aria-pressed',String(c===cat));b.addEventListener('click',()=>{cat=c;$$('button',tabs).forEach(x=>x.setAttribute('aria-pressed',String(x===b)));render()});tabs.appendChild(b)});
@@ -1077,7 +1163,7 @@ function goTo(id){
 
 /* ---------- journey ---------- */
 (()=>{
- const J=[['Databases','Online Inventory & Order Management','Structured data','card','market'],['Machine learning','Hotel Booking Status Classification','Careful evaluation','card peri','hotel'],['Computer graphics','Traffic Rider','Visual computing','card gold','rider'],['Software engineering','FixIt','Teamwork and real users','card','fixit']];
+ const J=[['Databases','Online Inventory & Order Management','Structured data','card','market'],['Machine learning','Hotel Booking Status Classification','Careful evaluation','card peri','hotel'],['Computer graphics','Traffic Rider','Visual computing','card gold','rider'],['Software engineering','FixIt','Teamwork and real users','card','fixit'],['AI systems','LoopLens','Honest evaluation','card gold','looplens']];
  const host=$('#jn');
  J.forEach(([c,t,cap,cls,id])=>{
   const w=document.createElement('div');
