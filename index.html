@@ -217,7 +217,7 @@ body.intro-on{overflow:hidden}
 
 /* bands */
 section{margin:56px 0}
-.band{position:relative;height:224px;border-radius:26px;overflow:hidden;border:1.5px solid rgba(var(--ink-rgb),.18);cursor:pointer}
+.band{position:relative;height:150px;border-radius:26px;overflow:hidden;border:1.5px solid rgba(var(--ink-rgb),.18);cursor:pointer}
 .band svg{position:absolute;inset:0;width:100%;height:100%}
 .band .bt{position:absolute;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;padding:0 5%;pointer-events:none}
 .band .eb{font-size:13px;font-weight:700;letter-spacing:.32em;text-transform:uppercase;opacity:.85}
@@ -246,7 +246,7 @@ section{margin:56px 0}
 .hide{display:none!important}
 
 /* stats */
-.stats{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-top:22px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
 .stat{text-align:left;background:var(--ppink);border:1.5px solid rgba(var(--ink-rgb),.3);border-radius:20px;padding:18px;min-height:150px;position:relative;transition:transform .25s,box-shadow .25s;perspective:600px}
 .stat:nth-child(even){background:var(--pperi)}.stat:nth-child(3n){background:var(--pgold)}
 .stat:hover{transform:translateY(-4px) rotate(-1deg);box-shadow:0 10px 0 rgba(var(--ink-rgb),.12)}
@@ -431,7 +431,7 @@ footer{text-align:center;padding:30px 0 60px;font-weight:600;opacity:.85}
 
 @media (max-width:900px){
  .hero{grid-template-columns:minmax(0,1fr)}
- .stats{grid-template-columns:repeat(3,1fr)}
+ .stats{grid-template-columns:repeat(2,1fr)}
  .grid3,.projects{grid-template-columns:1fr}
  .journey,.grid4{grid-template-columns:repeat(2,1fr)}
  .journey>div:last-child:nth-child(odd){grid-column:1/-1}
@@ -625,10 +625,8 @@ h2,h3,.band h2{font-family:var(--fd);letter-spacing:-.02em}
   <ul>
     <li><a href="#top" data-s="top">Hello</a></li>
     <li><a href="#about" data-s="about">About</a></li>
-    <li><a href="#looking" data-s="looking">Roles</a></li>
     <li><a href="#projects" data-s="projects">Projects</a></li>
     <li><a href="#skills" data-s="skills">Skills</a></li>
-    <li><a href="#journey" data-s="journey">Journey</a></li>
     <li><a href="#thesis" data-s="thesis">Thesis</a></li>
     <li><a href="#talk" data-s="talk">Talk</a></li>
   </ul>
@@ -668,29 +666,21 @@ h2,h3,.band h2{font-family:var(--fd);letter-spacing:-.02em}
       </div>
     </div>
     <p class="hud hud-l" aria-hidden="true">Scroll ↓ &nbsp;·&nbsp; <b>Thesis in progress</b></p>
-    <p class="hud hud-r" aria-hidden="true">Flower galaxy · 4,200 stars<br><b>Drag to spin · cursor = gravity</b></p>
   </div>
 
   <!-- ABOUT -->
   <section id="about" aria-labelledby="h-about">
     <header class="band" data-band="about" id="h-about"></header>
-    <p class="lead">I'm <strong>Mehrun-Nisa Rahman</strong>, a Computer Science student at <strong>BRAC University</strong> who loves turning ideas into working software. I build things end to end: a <strong>database-backed marketplace</strong>, a <strong>machine-learning pipeline on 119K records</strong>, a <strong>3D game</strong>, and a <strong>team platform for booking home services</strong>. My thesis explores <strong>AI agents that work alongside human researchers</strong> on text and image data.</p>
+    <p class="lead">I'm <strong>Mehrun-Nisa Rahman</strong>, a Computer Science student at <strong>BRAC University</strong>. I build AI systems and full-stack web applications, and I care about measuring whether they actually work. My most recent project, <strong>LoopLens</strong>, uses three AI agents to check whether what an online buyer received matches the listing, with a person making the final call. It agreed with my labels on 97% of a blind test set. I have also built a machine-learning pipeline on 119K records, a MERN service platform with payments, and a database-backed marketplace.</p>
     <p class="note"><strong>I'm open to work.</strong> I'm looking for <strong>internships and entry-level roles</strong> in <strong>AI / machine learning</strong> and <strong>software engineering</strong>. The quickest way to reach me is <a href="mailto:mehrunnisarahmanety@gmail.com">email</a> or <a href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/">LinkedIn</a>.</p>
     <div class="stats" id="stats">
-      <button class="stat" data-count="5" data-detail="LoopLens, Hotel Booking Status Classification, Online Inventory &amp; Order Management, Traffic Rider and FixIt." aria-pressed="false"><span class="n">0</span><span class="l">featured projects</span><span class="d"></span><span class="more">TAP</span></button>
-      <button class="stat" data-count="119" data-suffix="K" data-detail="booking records used to compare four models and K-Means in the hotel project." aria-pressed="false"><span class="n">0</span><span class="l">booking records analysed</span><span class="d"></span><span class="more">TAP</span></button>
-      <button class="stat" data-count="0.91" data-dec="2" data-detail="AUC in the hotel booking project, with 83% test accuracy for the best model." aria-pressed="false"><span class="n">0</span><span class="l">AUC on hotel bookings</span><span class="d"></span><span class="more">TAP</span></button>
-      <button class="stat" data-count="11" data-detail="tables in the PHP and MySQL marketplace schema." aria-pressed="false"><span class="n">0</span><span class="l">tables in the marketplace schema</span><span class="d"></span><span class="more">TAP</span></button>
-      <button class="stat" data-count="7" data-detail="specialised agents in the thesis. Each one has a single job." aria-pressed="false"><span class="n">0</span><span class="l">specialised thesis agents</span><span class="d"></span><span class="more">TAP</span></button>
-      <button class="stat" data-count="2" data-detail="human review checkpoints: after coding and after theme extraction." aria-pressed="false"><span class="n">0</span><span class="l">human review checkpoints</span><span class="d"></span><span class="more">TAP</span></button>
+      <button class="stat" data-count="5" data-detail="LoopLens, FixIt, Hotel Booking Status Classification, Online Inventory &amp; Order Management and Traffic Rider." aria-pressed="false"><span class="n">0</span><span class="l">projects built</span><span class="d"></span></button>
+      <button class="stat" data-count="97" data-suffix="%" data-detail="agreement between LoopLens and hand labels on a blind test set of 30 real Amazon cases." aria-pressed="false"><span class="n">0</span><span class="l">agreement on a blind test (LoopLens)</span><span class="d"></span></button>
+      <button class="stat" data-count="0.91" data-dec="2" data-detail="AUC for the best model in the hotel booking project, with 83% test accuracy." aria-pressed="false"><span class="n">0</span><span class="l">AUC on hotel bookings</span><span class="d"></span></button>
+      <button class="stat" data-count="119" data-suffix="K" data-detail="booking records used to compare four classifiers and K-Means clustering." aria-pressed="false"><span class="n">0</span><span class="l">records analysed</span><span class="d"></span></button>
     </div>
   </section>
 
-  <!-- LOOKING -->
-  <section id="looking" aria-labelledby="h-looking">
-    <header class="band" data-band="looking" id="h-looking"></header>
-    <div class="grid3" id="roles"></div>
-  </section>
 
   <!-- PROJECTS -->
   <section id="projects" aria-labelledby="h-projects">
@@ -804,23 +794,12 @@ h2,h3,.band h2{font-family:var(--fd);letter-spacing:-.02em}
     </div>
   </section>
 
-  <!-- JOURNEY -->
-  <section id="journey" aria-labelledby="h-journey">
-    <header class="band" data-band="journey" id="h-journey"></header>
-    <div class="journey" id="jn"></div>
-    <div class="thesis-card" id="jn-thesis">
-      <p class="lbl">Thesis · in progress</p>
-      <h3>Human-in-the-Loop Multi-Agent Vision-Language Framework</h3>
-      <p>AI agents read text and images, and people review the results at two checkpoints.</p>
-    </div>
-  </section>
 
   <!-- THESIS -->
   <section id="thesis" aria-labelledby="h-thesis">
     <header class="band" data-band="thesis" id="h-thesis"></header>
     <div class="prose">
-      <p>Qualitative coding is slow, and most AI tools only read text even though real data (product reviews, Airbnb listings) comes with images. My thesis team and I are investigating whether a <strong>human-in-the-loop, multi-agent vision-language framework</strong> can produce qualitative codes that are <strong>more accurate and more explainable</strong> than a single-agent VLM, under a matched token budget.</p>
-      <p>Seven specialised agents each have one job. Human researchers review the output after coding and after theme extraction, and can accept, edit, or reject it. Every code and theme points back to its text and image evidence.</p>
+      <p>With a team of three, I am researching whether a <strong>human-in-the-loop, multi-agent vision-language framework</strong> can code qualitative data (text with images, such as product reviews) more accurately and more explainably than a single model. Seven agents each handle one step, and researchers review the output at two checkpoints, where they can accept, edit or reject it.</p>
     </div>
     <div class="agents" id="agents">
       <div>
@@ -830,17 +809,6 @@ h2,h3,.band h2{font-family:var(--fd);letter-spacing:-.02em}
       </div>
       <svg viewBox="-70 -30 640 560" id="agsvg" role="group" aria-label="Network of seven specialised agents around a human researcher"></svg>
     </div>
-    <div class="sim" id="sim">
-      <h3>Run the pipeline yourself</h3>
-      <p style="opacity:.85;font-size:15px">Step through it, and decide at each human checkpoint.</p>
-      <div class="pipe" id="pipe"></div>
-      <div class="simlog" id="simlog" aria-live="polite">Press Start to send text and images through the pipeline.</div>
-      <div class="decide hide" id="decide"><button type="button" class="ok" data-d="accept">Accept</button><button type="button" class="ed" data-d="edit">Edit</button><button type="button" class="rj" data-d="reject">Reject</button></div>
-      <div class="row" style="margin-top:14px"><button type="button" id="s-start">Start</button><button type="button" id="s-reset" class="ghost">Reset</button></div>
-      <div class="legend"><span><i style="background:var(--pperi)"></i>AI agent</span><span><i style="background:var(--gold)"></i>Human checkpoint</span><span><i style="background:var(--ppink)"></i>Input / output</span><span style="margin-left:auto">Every code and theme links back to its text and image evidence.</span></div>
-    </div>
-    <p class="evalh"><strong>How it will be evaluated</strong> (on public multimodal data such as Amazon reviews with images, Yelp, and Airbnb listings)</p>
-    <div class="grid4" id="evals"></div>
     <div class="tags"><span class="chip">Multimodal AI</span><span class="chip peri">Vision-Language Models</span><span class="chip gold">Multi-Agent Systems</span><span class="chip">Explainability</span><span class="chip peri">Human-AI Collaboration</span></div>
   </section>
 
@@ -945,11 +913,11 @@ const LAY={
 const BANDS={
  about:['A','right','01 · hello','About me'],
  looking:['B','left','02 · next step',"What I'm looking for"],
- projects:['C','both','03 · built so far','Projects'],
- skills:['A','left','04 · toolbox','Skills'],
+ projects:['C','both','02 · built so far','Projects'],
+ skills:['A','left','03 · toolbox','Skills'],
  journey:['B','right','05 · how it connects','From coursework to thesis'],
- thesis:['C','left','06 · in progress','Thesis','Human-in-the-Loop Multi-Agent Vision-Language Framework'],
- talk:['A','both','07 · say hello',"Let's talk"]
+ thesis:['C','left','04 · in progress','Thesis','Human-in-the-Loop Multi-Agent Vision-Language Framework'],
+ talk:['A','both','05 · say hello',"Let's talk"]
 };
 $$('.band').forEach((b,i)=>{
  const [pk,lay,eb,title,sub]=BANDS[b.dataset.band],L=LAY[lay],p=PAL[pk];
@@ -980,7 +948,7 @@ $$('.band').forEach((b,i)=>{
 (()=>{
  $$('.stat').forEach(b=>{
   $('.d',b).textContent=b.dataset.detail;
-  b.addEventListener('click',e=>{const on=b.getAttribute('aria-pressed')==='true';b.setAttribute('aria-pressed',String(!on));$('.more',b).textContent=on?'TAP':'BACK';if(!on)burst(e.clientX,e.clientY,5)});
+  b.addEventListener('click',e=>{const on=b.getAttribute('aria-pressed')==='true';b.setAttribute('aria-pressed',String(!on));if(!on)burst(e.clientX,e.clientY,5)});
  });
  const seen=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;seen.unobserve(e.target);
   $$('.stat',e.target).forEach(b=>{
@@ -994,6 +962,7 @@ $$('.band').forEach((b,i)=>{
 
 /* ---------- roles ---------- */
 (()=>{
+ if(!document.querySelector('#roles'))return;
  const R=[
   ['AI / Machine Learning','Data preparation, model training, and fair evaluation on imbalanced data.','card',
    '<circle cx="14" cy="16" r="3.5" fill="var(--ink)"/><circle cx="34" cy="16" r="3.5" fill="var(--ink)"/><circle cx="24" cy="34" r="3.5" fill="var(--ink)"/><path d="M14 16L34 16L24 34Z" fill="none" stroke="var(--ink)" stroke-width="2"/>',
@@ -1182,8 +1151,8 @@ if(window.CanvasRenderingContext2D&&!CanvasRenderingContext2D.prototype.roundRec
 
 /* ---------- skills ---------- */
 (()=>{
- const S=[['Languages',['Python','JavaScript','PHP','SQL']],['ML & Data',['scikit-learn','pandas','NumPy','matplotlib','seaborn']],['Modelling',['Classification','K-Means','Neural networks (MLP)','ROC-AUC','Macro F1']],['Web & Databases',['FastAPI','MySQL schema design','PHP back end','JavaScript','React','Node.js / Express','MongoDB']],['Graphics',['OpenGL (PyOpenGL)','3D scenes','Game loops']],['Tools',['Git','GitHub','Jupyter / Colab']],['Exploring now',['Vision-language models','Multi-agent systems','Explainable AI']]];
- const U={'Python':['looplens','hotel','rider'],'FastAPI':['looplens'],'JavaScript':['fixit'],'React':['fixit'],'Node.js / Express':['fixit'],'MongoDB':['fixit'],'PHP':['market'],'SQL':['market'],'scikit-learn':['hotel'],'pandas':['hotel'],'NumPy':['hotel'],'matplotlib':['hotel'],'seaborn':['hotel'],'Classification':['hotel'],'K-Means':['hotel'],'Neural networks (MLP)':['hotel'],'ROC-AUC':['hotel'],'Macro F1':['hotel'],'MySQL schema design':['market'],'PHP back end':['market'],'OpenGL (PyOpenGL)':['rider'],'3D scenes':['rider'],'Game loops':['rider'],'Vision-language models':['looplens','thesis'],'Multi-agent systems':['looplens','thesis'],'Explainable AI':['thesis']};
+ const S=[['Languages',['Python','JavaScript','SQL','PHP','C']],['AI & ML',['scikit-learn','pandas','NumPy','Neural networks','Model evaluation','Vision-language models','Multi-agent systems']],['Web',['FastAPI','React','Node.js / Express','MongoDB','MySQL','REST APIs']],['Tools',['Git & GitHub','pytest','Jupyter / Colab','OpenGL']]];
+ const U={'Python':['looplens','hotel','rider'],'JavaScript':['fixit'],'SQL':['market'],'PHP':['market'],'C':[],'scikit-learn':['hotel'],'pandas':['hotel'],'NumPy':['hotel'],'Neural networks':['hotel'],'Model evaluation':['looplens','hotel'],'Vision-language models':['looplens','thesis'],'Multi-agent systems':['looplens','thesis'],'FastAPI':['looplens'],'React':['fixit'],'Node.js / Express':['fixit'],'MongoDB':['fixit'],'MySQL':['market'],'REST APIs':['looplens','fixit'],'Git & GitHub':['looplens','hotel','market','rider','fixit'],'pytest':['looplens'],'Jupyter / Colab':['hotel'],'OpenGL':['rider']};
  const NAMES={looplens:'LoopLens',hotel:'Hotel Booking Status Classification',market:'Online Inventory & Order Management',rider:'Traffic Rider',fixit:'FixIt',thesis:'the thesis'};
  const tabs=$('#tabs'),chips=$('#chips'),rel=$('#rel');let cat='All',picked=null;
  const cats=['All',...S.map(s=>s[0])];
@@ -1195,7 +1164,7 @@ if(window.CanvasRenderingContext2D&&!CanvasRenderingContext2D.prototype.roundRec
    const b=document.createElement('button');b.type='button';b.textContent=n;b.className='c'+(ci%3===1?1:ci%3===2?2:0);b.style.animationDelay=(i++*35)+'ms';b.setAttribute('aria-pressed',String(picked===n));
    b.addEventListener('click',e=>{picked=picked===n?null:n;clearHl();$$('button',chips).forEach(x=>x.setAttribute('aria-pressed',String(x.textContent===picked)));
     if(!picked){rel.textContent='Pick a skill to see which project it belongs to.';return}
-    const ids=U[n]||[];rel.innerHTML='';rel.append(`${n} → `);
+    const ids=U[n]||[];rel.innerHTML='';if(!ids.length){rel.textContent=`${n}: used across university coursework.`;return}rel.append(`${n} → `);
     ids.forEach(id=>{const a=document.createElement('button');a.type='button';a.textContent=NAMES[id];a.addEventListener('click',()=>goTo(id));rel.append(a)});
     ids.forEach(id=>{const el=$('#p-'+id);el&&el.classList.add('hl')});burst(e.clientX,e.clientY,4)});
    chips.appendChild(b)})});
@@ -1205,6 +1174,7 @@ if(window.CanvasRenderingContext2D&&!CanvasRenderingContext2D.prototype.roundRec
 
 /* ---------- journey ---------- */
 (()=>{
+ if(!document.querySelector('#jn'))return;
  const J=[['Databases','Online Inventory & Order Management','Structured data','card','market'],['Machine learning','Hotel Booking Status Classification','Careful evaluation','card peri','hotel'],['Computer graphics','Traffic Rider','Visual computing','card gold','rider'],['Software engineering','FixIt','Teamwork and real users','card','fixit'],['AI systems','LoopLens','Honest evaluation','card gold','looplens']];
  const host=$('#jn');
  J.forEach(([c,t,cap,cls,id])=>{
@@ -1219,6 +1189,7 @@ if(window.CanvasRenderingContext2D&&!CanvasRenderingContext2D.prototype.roundRec
 
 /* ---------- thesis pipeline ---------- */
 (()=>{
+ if(!document.querySelector('#pipe'))return;
  const S=[
   {n:'Text + images',t:'io',m:'Input: text and images enter the pipeline.'},
   {n:'Preprocess',t:'ai',m:'Text and images are preprocessed.'},
@@ -1253,6 +1224,7 @@ if(window.CanvasRenderingContext2D&&!CanvasRenderingContext2D.prototype.roundRec
 
 /* ---------- eval cards ---------- */
 (()=>{
+ if(!document.querySelector('#evals'))return;
  const E=[['Fair comparison','Tested against a single AI model with the same budget, plus a simple baseline.','card'],['Agrees with humans',"Scored against human coders with Cohen's κ, Krippendorff's α and F1.",'card peri'],['Clear explanations','Experts rate the explanations. Speed, cost and usability (SUS) are measured.','card gold'],['Ethics & ablations','Test which parts matter. Check for bias and over-trust in AI.','card']];
  const h=$('#evals');
  E.forEach(([t,d,c],i)=>{const b=document.createElement('button');b.type='button';b.className=c+' ev';b.innerHTML=`<span class="num">0${i+1}</span><h4>${t}</h4><p>${d}</p>`;b.addEventListener('click',e=>burst(e.clientX,e.clientY,5));h.appendChild(b)});
