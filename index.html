@@ -359,10 +359,11 @@ section{margin:56px 0}
 .rel-line button{margin-left:6px;background:var(--gold);border:1.5px solid rgba(var(--ink-rgb),.35);border-radius:999px;padding:4px 14px;font-weight:700}
 
 /* journey */
-.journey{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:24px;position:relative}
-.jn{text-align:left;width:100%;transition:transform .25s,box-shadow .25s}
+.journey{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:24px;position:relative}
+.journey>div{display:flex;flex-direction:column}
+.jn{text-align:left;width:100%;flex:1;transition:transform .25s,box-shadow .25s}
 .jn:hover,.jn:focus-visible{transform:translateY(-6px);box-shadow:0 12px 0 rgba(var(--ink-rgb),.12)}
-.jn h3{font-size:20px;font-weight:800;letter-spacing:-.02em;margin:10px 0 18px;line-height:1.2;min-height:48px}
+.jn h3{font-size:18.5px;font-weight:800;letter-spacing:-.02em;margin:10px 0 18px;line-height:1.2;min-height:48px}
 .jn .cap{font-weight:600;font-size:14px;opacity:.85;display:flex;gap:8px;align-items:center}
 .jn .cap i{width:9px;height:9px;border-radius:50%;background:var(--ink);opacity:.7;display:inline-block}
 .flow{display:block;width:100%;height:56px;margin-top:2px}
@@ -415,6 +416,7 @@ footer{text-align:center;padding:30px 0 60px;font-weight:600;opacity:.85}
  .stats{grid-template-columns:repeat(3,1fr)}
  .grid3,.projects{grid-template-columns:1fr}
  .journey,.grid4{grid-template-columns:repeat(2,1fr)}
+ .journey>div:last-child:nth-child(odd){grid-column:1/-1}
  .pipe{grid-template-columns:repeat(2,1fr)}
  .node::after{display:none!important}
  .band{height:176px}
