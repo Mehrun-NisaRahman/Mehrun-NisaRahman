@@ -91,7 +91,7 @@ If you're hiring or want to collaborate, I'd love to hear from you.
 <a href="https://www.linkedin.com/in/mehrun-nisa-rahman-a42566242/"><img src="bloom-btn-linkedin.svg" alt="LinkedIn" height="44"></a>
 </p>
 
-[![Download CV](https://img.shields.io/badge/Download_CV-7F8FE0?style=for-the-badge&logo=readthedocs&logoColor=white)](https://mehrun-nisarahman.github.io/Mehrun-NisaRahman/cv/Mehrun-Nisa-Rahman-CV.pdf)
+[![View CV](https://img.shields.io/badge/View_CV-7F8FE0?style=for-the-badge&logo=readthedocs&logoColor=white)](https://mehrun-nisarahman.github.io/Mehrun-NisaRahman/cv/Mehrun-Nisa-Rahman-CV.pdf)
 
 <div align="center">
 
